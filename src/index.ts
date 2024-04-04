@@ -16,18 +16,22 @@ app.get(`/recommend/:user_id`, (req, res) =>
 		res.status(400).send(`User ID is required`);
 		return;
 	}
-	// TODO: Test if the following code is correct
-	if (isNaN(Number(user_id)))
+
+	const uuid_regex = /^[0-9a-fA-F]{8}-?[0-9a-fA-F]{4}-?[0-9a-fA-F]{4}-?[0-9a-fA-F]{4}-?[0-9a-fA-F]{12}$/;
+	if (!uuid_regex.test(user_id))
 	{
-		res.status(400).send(`User ID must be a number`);
+		res.status(400).send(`ID is not a valid UUID`);
 		return;
 	}
-	// TODO: add more guards
+	console.log(`User ID: ${user_id}`);
+	// const uuid_without_dashes = user_id.replace(/-/g, ``);
+	// console.log(`User ID without dashes: ${uuid_without_dashes}`);
+	// const user_id_int = parseInt(uuid_without_dashes, 16);
+	// console.log(`User ID as an integer: ${user_id_int}`);
 	// TODO: Implement the recommendation logic
+	const recommended_items = user_id.slice(0, 8).split(``);
 
-
-
-	res.send(`Hello ${user_id}!`);
+	res.send(`Hello ${recommended_items}!`);
 });
 
 
