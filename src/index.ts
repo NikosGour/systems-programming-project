@@ -2,23 +2,21 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
+import {is_valid_uuid, recommend_items} from "./utils";
+
 dotenv.config();
 
 const app = express();
 
 app.use(cors());
 
+
+const recommendation_func = recommend_items;
 app.get(`/recommend/:user_id`, (req, res) =>
 {
 	const user_id = req.params.user_id;
-	if (user_id === ``)
-	{
-		res.status(400).send(`User ID is required`);
-		return;
-	}
 
-	const uuid_regex = /^[0-9a-fA-F]{8}-?[0-9a-fA-F]{4}-?[0-9a-fA-F]{4}-?[0-9a-fA-F]{4}-?[0-9a-fA-F]{12}$/;
-	if (!uuid_regex.test(user_id))
+	if (!is_valid_uuid(user_id))
 	{
 		res.status(400).send(`ID is not a valid UUID`);
 		return;
@@ -29,9 +27,9 @@ app.get(`/recommend/:user_id`, (req, res) =>
 	// const user_id_int = parseInt(uuid_without_dashes, 16);
 	// console.log(`User ID as an integer: ${user_id_int}`);
 	// TODO: Implement the recommendation logic
-	const recommended_items = user_id.slice(0, 8).split(``);
+	const recommended_items = recommendation_func(user_id);
 
-	res.send(`Hello ${recommended_items}!`);
+	res.send(recommended_items);
 });
 
 
