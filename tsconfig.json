@@ -21,7 +21,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "disableSizeLimit": true,
     "exactOptionalPropertyTypes": true,
-    "noEmitOnError": true,
+    "noEmitOnError": false,
     "moduleResolution": "NodeNext",
     "sourceMap": true,
   },
