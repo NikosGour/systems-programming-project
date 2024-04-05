@@ -2,10 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "NodeNext",
-    "rootDirs": [
-      "src",
-      "tests"
-    ],
+    "rootDir": "src",
     "outDir": "bin",
     "lib": [
       "ESNext",
@@ -24,7 +21,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "disableSizeLimit": true,
     "exactOptionalPropertyTypes": true,
-    "noEmitOnError": false,
+    "noEmitOnError": true,
     "moduleResolution": "NodeNext",
     "sourceMap": true,
   },

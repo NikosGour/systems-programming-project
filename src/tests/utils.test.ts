@@ -1,4 +1,4 @@
-import {is_valid_uuid} from "../src/utils";
+import {is_valid_uuid} from "../utils";
 
 describe(`Sum function`, () =>
 {
@@ -8,7 +8,7 @@ describe(`Sum function`, () =>
 		{
 			return b+c;
 		};
-		expect(1 + 1).toBe(2);
+		expect(a(1, 1)).toBe(2);
 	});
 });
 
