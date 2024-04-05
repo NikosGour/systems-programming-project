@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "NodeNext",
+    "module": "ESNext",
     "rootDir": "src",
     "outDir": "bin",
     "lib": [
@@ -22,7 +22,7 @@
     "disableSizeLimit": true,
     "exactOptionalPropertyTypes": true,
     "noEmitOnError": true,
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "Bundler",
     "sourceMap": true,
   },
   "include": [

@@ -1,4 +1,4 @@
-import {is_valid_uuid} from "../utils";
+import {is_valid_uuid} from "../utils.js";
 
 describe(`Sum function`, () =>
 {

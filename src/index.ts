@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
-import {is_valid_uuid, recommend_items} from "./utils";
+import {is_valid_uuid, recommend_items} from "./utils.js";
 
 dotenv.config();
 
