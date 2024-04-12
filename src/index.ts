@@ -2,10 +2,10 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
-import {is_valid_uuid, recommend_items} from "./utils.js";
+import {UUID, recommend_items} from "./utils.js";
 
 dotenv.config();
-
+console.log(new UUID(`550e8400-e29b-41d4-a716-446655440000`));
 const app = express();
 
 app.use(cors());
@@ -16,7 +16,7 @@ app.get(`/recommend/:user_id`, (req, res) =>
 {
 	const user_id = req.params.user_id;
 
-	if (!is_valid_uuid(user_id))
+	if (UUID.is_valid_uuid(user_id))
 	{
 		res.status(400).send(`ID is not a valid UUID`);
 		return;

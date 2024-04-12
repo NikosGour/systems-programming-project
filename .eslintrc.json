@@ -14,14 +14,23 @@
         "sourceType": "module"
     },
     "plugins": [
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "file-extension-in-import-ts"
+        // "import"
     ],
     "ignorePatterns": [
         "**/*.js"
     ],
     "rules": {
+        "file-extension-in-import-ts/file-extension-in-import-ts": "error",
         "@typescript-eslint/no-explicit-any": "warn",
-        "@typescript-eslint/no-unused-vars": "warn",
+        "@typescript-eslint/no-unused-vars": [
+            "warn",
+            {
+                "argsIgnorePattern": "^_",
+                "varsIgnorePattern": "^_"
+            }
+        ],
         "semi": [
             "warn",
             "always"
@@ -58,7 +67,9 @@
                 "format": [
                     "snake_case",
                     "camelCase"
-                ]
+                ],
+                "leadingUnderscore": "allow",
+                "trailingUnderscore": "allow"
             }
         ],
         // "comma-dangle": [
