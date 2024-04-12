@@ -43,13 +43,18 @@ describe(`UUID.is_valid_uuid function`, () =>
 
 describe(`UUID Class`, () =>
 {
-	test.each(uuids)(`New UUID should not throw:"%s"`, (uuid: string) =>
+	test.each(uuids)(`'new UUID()' should not throw, a it is given a valid UUID: "%s"`, (uuid: string) =>
 	{
 		expect(() => { return new UUID(uuid); }).not.toThrow(/Trying to create/);
 	});
 
-	test.each(failing_uuids)(`Testing failing:"%s"`, (uuid: string) =>
+	test.each(failing_uuids)(`'new UUID()' should throw, as it is given invalid UUID: "%s"`, (uuid: string) =>
 	{
 		expect(() => { return new UUID(uuid); }).toThrow(/Trying to create/);
+	});
+
+	test.each(uuids)(`'new UUID()' should not throw, a it is given a valid UUID: "%s"`, (uuid: string) =>
+	{
+		expect(new UUID(uuid).id).toEqual(uuid);
 	});
 });
