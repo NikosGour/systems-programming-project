@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest --watchAll",
-    "dev": "nodemon bin/index.js"
+    "dev": "nodemon bin/index.js",
+    "clean": "rm -rf bin;tsc"
   },
   "keywords": [],
   "author": "",

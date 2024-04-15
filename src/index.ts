@@ -2,7 +2,8 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 
-import {UUID, recommend_items} from "./utils.js";
+import { recommend_items } from "./utils.js";
+import { UUID } from "./functionality/uuid.js";
 
 dotenv.config();
 console.log(new UUID(`550e8400-e29b-41d4-a716-446655440000`));

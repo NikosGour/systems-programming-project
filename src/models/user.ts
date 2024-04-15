@@ -1,4 +1,5 @@
-import { Countries, UUID } from "../utils.js";
+import { Countries, } from "../utils.js";
+import { UUID } from "../functionality/uuid.js";
 
 export interface User {
 	birth_year: number,

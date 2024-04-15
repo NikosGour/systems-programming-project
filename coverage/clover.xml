@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1713164739015" clover="3.2.0">
+  <project timestamp="1713164739015" name="All files">
+    <metrics statements="30" coveredstatements="30" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4" elements="42" coveredelements="42" complexity="0" loc="30" ncloc="30" packages="1" files="1" classes="1"/>
+    <file name="uuid.ts" path="/home/ledrake/coding/systems_programming/checkpoint01/src/functionality/uuid.ts">
+      <metrics statements="30" coveredstatements="30" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="3" count="30" type="stmt"/>
+      <line num="4" count="30" type="stmt"/>
+      <line num="5" count="30" type="stmt"/>
+      <line num="6" count="30" type="cond" truecount="1" falsecount="0"/>
+      <line num="7" count="30" type="stmt"/>
+      <line num="8" count="30" type="stmt"/>
+      <line num="9" count="30" type="cond" truecount="1" falsecount="0"/>
+      <line num="10" count="22" type="stmt"/>
+      <line num="11" count="22" type="stmt"/>
+      <line num="12" count="8" type="cond" truecount="1" falsecount="0"/>
+      <line num="13" count="8" type="stmt"/>
+      <line num="14" count="8" type="stmt"/>
+      <line num="15" count="8" type="stmt"/>
+      <line num="16" count="30" type="stmt"/>
+      <line num="17" count="30" type="stmt"/>
+      <line num="18" count="30" type="cond" truecount="1" falsecount="0"/>
+      <line num="19" count="11" type="stmt"/>
+      <line num="20" count="11" type="stmt"/>
+      <line num="21" count="11" type="stmt"/>
+      <line num="22" count="30" type="stmt"/>
+      <line num="23" count="30" type="cond" truecount="1" falsecount="0"/>
+      <line num="24" count="49" type="stmt"/>
+      <line num="25" count="49" type="stmt"/>
+      <line num="26" count="49" type="cond" truecount="1" falsecount="0"/>
+      <line num="27" count="33" type="cond" truecount="1" falsecount="0"/>
+      <line num="28" count="33" type="stmt"/>
+      <line num="29" count="30" type="stmt"/>
+      <line num="30" count="30" type="stmt"/>
+    </file>
+  </project>
+</coverage>

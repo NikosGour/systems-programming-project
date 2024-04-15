@@ -1,4 +1,4 @@
-import { UUID } from "../utils.js";
+import { UUID } from "../functionality/uuid.js";
 
 export interface Coupon{
 	coupon_id: UUID,

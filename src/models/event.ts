@@ -1,4 +1,5 @@
-import { Countries, UUID } from "../utils.js";
+import { Countries,  } from "../utils.js";
+import { UUID } from "../functionality/uuid.js";
 import { Team } from "./team.js";
 
 export interface Event {
