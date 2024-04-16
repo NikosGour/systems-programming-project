@@ -26,35 +26,28 @@ const failing_uuids =
 		`be78bf3c-45b542fa8649-fa3b049601f6`,
 		`550e8400e29b41d4-a716-446655440000`,
 	];
-describe(`UUID.is_valid_uuid function`, () =>
-{
+describe(`UUID.is_valid_uuid function`, () => {
 
 
-	test.each(uuids)(`Testing succeful: "%s"`, (uuid: string) =>
-	{
+	test.each(uuids)(`Testing succeful: "%s"`, (uuid: string) => {
 		expect(UUID.is_valid_uuid(uuid)).toBe(true);
 	});
 
-	test.each(failing_uuids)(`Testing failing: "%s"`, (uuid: string) =>
-	{
+	test.each(failing_uuids)(`Testing failing: "%s"`, (uuid: string) => {
 		expect(UUID.is_valid_uuid(uuid)).toBe(false);
 	});
 });
 
-describe(`UUID Class`, () =>
-{
-	test.each(uuids)(`New UUID should not throw: "%s"`, (uuid: string) =>
-	{
+describe(`UUID Class`, () => {
+	test.each(uuids)(`New UUID should not throw: "%s"`, (uuid: string) => {
 		expect(() => { return new UUID(uuid); }).not.toThrow(/Trying to create/);
 	});
 
-	test.each(failing_uuids)(`Testing failing: "%s"`, (uuid: string) =>
-	{
+	test.each(failing_uuids)(`Testing failing: "%s"`, (uuid: string) => {
 		expect(() => { return new UUID(uuid); }).toThrow(/Trying to create/);
 	});
 
-	test.each(uuids)(`get id() should return the input uuid: "%s"`, (uuid: string) =>
-	{
+	test.each(uuids)(`get id() should return the input uuid: "%s"`, (uuid: string) => {
 		const _uuid = new UUID(uuid);
 		expect(_uuid.id).toEqual(uuid);
 	});

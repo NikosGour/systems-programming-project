@@ -49,7 +49,7 @@
         ],
         "brace-style": [
             "warn",
-            "allman",
+            "stroustrup",
             {
                 "allowSingleLine": true
             }
@@ -175,6 +175,10 @@
                 "multiline": true,
                 "consistent": true
             }
+        ],
+        "object-curly-spacing": [
+            "warn",
+            "always"
         ],
         "operator-assignment": [
             "warn",
