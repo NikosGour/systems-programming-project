@@ -39,7 +39,7 @@ export class MockRecommendationEngine implements RecommendationEngine {
 
 		this.events = [ { ...event }, { ...event }, { ...event }, { ...event }, { ...event }, { ...event }, { ...event } ];
 	}
-	public recommend(user: UUID): Event[] {
+	public recommend(_user: UUID): Event[] {
 
 		return this.events;
 	}

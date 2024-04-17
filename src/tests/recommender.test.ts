@@ -1,4 +1,4 @@
-import { Recommender, RecommendationEngine, MockRecommendationEngine } from "../functionality/recommender.js";
+import { Recommender, MockRecommendationEngine } from "../functionality/recommender.js";
 import { UUID } from "../functionality/uuid.js";
 import { jest } from '@jest/globals';
 import { Event } from "../models/event.js";

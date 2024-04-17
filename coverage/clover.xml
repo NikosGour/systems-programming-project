@@ -1,39 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1713164739015" clover="3.2.0">
-  <project timestamp="1713164739015" name="All files">
-    <metrics statements="30" coveredstatements="30" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4" elements="42" coveredelements="42" complexity="0" loc="30" ncloc="30" packages="1" files="1" classes="1"/>
-    <file name="uuid.ts" path="/home/ledrake/coding/systems_programming/checkpoint01/src/functionality/uuid.ts">
-      <metrics statements="30" coveredstatements="30" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+<coverage generated="1713389906626" clover="3.2.0">
+  <project timestamp="1713389906626" name="All files">
+    <metrics statements="78" coveredstatements="78" conditionals="16" coveredconditionals="16" methods="11" coveredmethods="11" elements="105" coveredelements="105" complexity="0" loc="78" ncloc="78" packages="1" files="2" classes="2"/>
+    <file name="recommender.ts" path="/home/ledrake/files/systems_programming/checkpoint01/src/functionality/recommender.ts">
+      <metrics statements="47" coveredstatements="47" conditionals="7" coveredconditionals="7" methods="6" coveredmethods="6"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+      <line num="13" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="14" count="2" type="cond" truecount="1" falsecount="0"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="22" count="1" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="38" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="42" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="43" count="1" type="stmt"/>
+      <line num="44" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="47" count="1" type="stmt"/>
+    </file>
+    <file name="uuid.ts" path="/home/ledrake/files/systems_programming/checkpoint01/src/functionality/uuid.ts">
+      <metrics statements="31" coveredstatements="31" conditionals="9" coveredconditionals="9" methods="5" coveredmethods="5"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
-      <line num="3" count="30" type="stmt"/>
-      <line num="4" count="30" type="stmt"/>
-      <line num="5" count="30" type="stmt"/>
-      <line num="6" count="30" type="cond" truecount="1" falsecount="0"/>
-      <line num="7" count="30" type="stmt"/>
-      <line num="8" count="30" type="stmt"/>
-      <line num="9" count="30" type="cond" truecount="1" falsecount="0"/>
-      <line num="10" count="22" type="stmt"/>
-      <line num="11" count="22" type="stmt"/>
-      <line num="12" count="8" type="cond" truecount="1" falsecount="0"/>
-      <line num="13" count="8" type="stmt"/>
-      <line num="14" count="8" type="stmt"/>
-      <line num="15" count="8" type="stmt"/>
-      <line num="16" count="30" type="stmt"/>
-      <line num="17" count="30" type="stmt"/>
-      <line num="18" count="30" type="cond" truecount="1" falsecount="0"/>
-      <line num="19" count="11" type="stmt"/>
-      <line num="20" count="11" type="stmt"/>
-      <line num="21" count="11" type="stmt"/>
-      <line num="22" count="30" type="stmt"/>
-      <line num="23" count="30" type="cond" truecount="1" falsecount="0"/>
-      <line num="24" count="49" type="stmt"/>
-      <line num="25" count="49" type="stmt"/>
-      <line num="26" count="49" type="cond" truecount="1" falsecount="0"/>
-      <line num="27" count="33" type="cond" truecount="1" falsecount="0"/>
-      <line num="28" count="33" type="stmt"/>
-      <line num="29" count="30" type="stmt"/>
-      <line num="30" count="30" type="stmt"/>
+      <line num="3" count="33" type="stmt"/>
+      <line num="4" count="33" type="stmt"/>
+      <line num="5" count="33" type="cond" truecount="1" falsecount="0"/>
+      <line num="6" count="33" type="cond" truecount="1" falsecount="0"/>
+      <line num="7" count="25" type="stmt"/>
+      <line num="8" count="25" type="stmt"/>
+      <line num="9" count="8" type="cond" truecount="1" falsecount="0"/>
+      <line num="10" count="8" type="stmt"/>
+      <line num="11" count="8" type="stmt"/>
+      <line num="12" count="33" type="stmt"/>
+      <line num="13" count="33" type="stmt"/>
+      <line num="14" count="33" type="cond" truecount="1" falsecount="0"/>
+      <line num="15" count="11" type="stmt"/>
+      <line num="16" count="11" type="stmt"/>
+      <line num="17" count="33" type="stmt"/>
+      <line num="18" count="33" type="cond" truecount="1" falsecount="0"/>
+      <line num="19" count="52" type="stmt"/>
+      <line num="20" count="52" type="cond" truecount="1" falsecount="0"/>
+      <line num="21" count="36" type="cond" truecount="1" falsecount="0"/>
+      <line num="22" count="36" type="stmt"/>
+      <line num="23" count="33" type="stmt"/>
+      <line num="24" count="33" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+      <line num="27" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="28" count="8" type="stmt"/>
+      <line num="29" count="8" type="stmt"/>
+      <line num="30" count="8" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
