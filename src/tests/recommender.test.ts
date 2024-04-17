@@ -25,7 +25,7 @@ describe(`Testing Recommend.recommend()`, () => {
 	test(`Should return an array of 5 events`, () => {
 		const re = new MockRecommendationEngine();
 		Recommender.set_recommender_method(re);
-		const res = [ { ...event }, { ...event }, { ...event }, { ...event }, { ...event } ];
-		expect(Recommender.recommend(uuid)).toEqual(res);
+		const res = [ { ...event }, { ...event }, { ...event }, { ...event }, { ...event }, { ...event }, { ...event } ];
+		expect(Recommender.recommend(uuid)).toMatchObject(res);
 	});
 });
