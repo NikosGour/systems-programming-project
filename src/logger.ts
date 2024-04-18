@@ -24,7 +24,7 @@ const LOGGER_MSG_COLORS = {
 	info  : `bold blue`,
 };
 
-const customFormat = format.combine(
+export const customFormat = format.combine(
 	label({ label: `[MAIN]` }),
 	timestamp({ format: `DD-MM-YY HH:MM:SS` }),
 	format((info) => {

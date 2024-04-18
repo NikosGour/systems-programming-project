@@ -1,4 +1,4 @@
-import { Recommender, MockRecommendationEngine } from "../functionality/recommender.js";
+import { Recommender, DummyRecommendationEngine } from "../functionality/recommender.js";
 import { UUID } from "../functionality/uuid.js";
 import { jest } from '@jest/globals';
 import { Event } from "../models/event.js";
@@ -13,7 +13,7 @@ describe(`Testing Recommend.recommend()`, () => {
 		event_id        : new UUID(`87cd6f51-2699-4304-85bc-94038625be8d`),
 		league          : `Euro`,
 		sport           : `Basketball`,
-		participants    : new Array<Team>(20)
+		participants    : new Array<Team>(5)
 	};
 
 	const uuid = new UUID(`a9a0af8d-f571-45d9-8eb3-6a67dc633bbd`);
@@ -23,7 +23,7 @@ describe(`Testing Recommend.recommend()`, () => {
 	});
 
 	test(`Should return an array of 5 events`, () => {
-		const re = new MockRecommendationEngine();
+		const re = new DummyRecommendationEngine();
 		Recommender.set_recommender_method(re);
 		const res = [ { ...event }, { ...event }, { ...event }, { ...event }, { ...event }, { ...event }, { ...event } ];
 		expect(Recommender.recommend(uuid)).toMatchObject(res);

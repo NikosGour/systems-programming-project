@@ -1,18 +1,18 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
+import express_winston from "express-winston";
 import { UUID, UUIDError } from "./functionality/uuid.js";
-import { Recommender } from "./functionality/recommender.js";
+import { DummyRecommendationEngine, Recommender, RecommenderError } from "./functionality/recommender.js";
 import logger from "./logger.js";
+import { Event } from "./models/event.js";
 dotenv.config();
-logger.info(new UUID(`550e8400-e29b-41d4-a716-446655440000`));
-logger.debug(new UUID(`550e8400-e29b-41d4-a716-446655440000`));
-logger.warn(new UUID(`550e8400-e29b-41d4-a716-446655440000`));
-logger.error(new UUID(`550e8400-e29b-41d4-a716-446655440000`));
-logger.silly(new UUID(`550e8400-e29b-41d4-a716-446655440000`));
 const app = express();
 
 app.use(cors());
+app.use(express_winston.logger({
+	winstonInstance: logger
+}));
 
 
 app.get(`/recommend/:user_id`, (req, res) => {
@@ -24,27 +24,41 @@ app.get(`/recommend/:user_id`, (req, res) => {
 	}
 	catch (e){
 		if (e instanceof UUIDError){
+			logger.error(`/recommend/:user_id ${e.message}`);
 			res.status(400).send(`ID is not a valid UUID`);
 		}
 		else if (e instanceof Error){
-			console.error(`Unexpected Error thrown: ${e.message}`);
+			logger.error(`Unexpected Error thrown: ${e.message}`);
 			res.status(500).send(`There was an Error in the server`);
 		}
 		else {
-			console.error(`Unexpected '${typeof e}' was thrown: ${e}`);
+			logger.error(`Unexpected '${typeof e}' was thrown: ${e}`);
 			res.status(500).send(`There was an Error in the server`);
 		}
 		return;
 	}
-	console.log(`User ID: ${user_uuid.id}`);
-	// const uuid_without_dashes = user_id.replace(/-/g, ``);
-	// console.log(`User ID without dashes: ${uuid_without_dashes}`);
-	// const user_id_int = parseInt(uuid_without_dashes, 16);
-	// console.log(`User ID as an integer: ${user_id_int}`);
-	// TODO: Implement the recommendation logic
-	//const recommended_items = recommendation_func(user_id);
-	const recommended_items = Recommender.recommend(user_uuid);
-	console.log(`User`);
+	logger.info(`User ID: ${user_uuid.id}`);
+
+	let recommended_items: Event[];
+	try {
+		recommended_items = Recommender.recommend(user_uuid);
+	}
+	catch (e){
+		if (e instanceof RecommenderError){
+			logger.error(e.message);
+			res.status(500).send(`Recommender Engine has not been set, please inform admin`);
+		}
+		else if (e instanceof Error){
+			logger.error(`Unexpected Error thrown: ${e.message}`);
+			res.status(500).send(`There was an Error in the server`);
+		}
+		else {
+			logger.error(`Unexpected '${typeof e}' was thrown: ${e}`);
+			res.status(500).send(`There was an Error in the server`);
+		}
+		return;
+	}
+	logger.info(`User`);
 
 	res.send(recommended_items);
 });
@@ -52,5 +66,6 @@ app.get(`/recommend/:user_id`, (req, res) => {
 
 const port = process.env[ `PORT` ] || 3000;
 app.listen(port, () => {
-	console.log(`Server is running on http://localhost:${port}`);
+	logger.info(`Server is running on http://localhost:${port}`);
+	Recommender.set_recommender_method(new DummyRecommendationEngine());
 });

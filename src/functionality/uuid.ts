@@ -26,6 +26,5 @@ export class UUID {
 export class UUIDError extends Error{
 	constructor(msg:string) {
 		super(msg);
-
 	}
 }
