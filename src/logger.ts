@@ -9,7 +9,6 @@ const pretty_print_json = (json: object): string => {
 	});
 };
 
-
 // eslint-disable-next-line @typescript-eslint/naming-convention
 const LOGGER_MSG_ICONS = {
 	ERROR : `🟥`,
@@ -26,7 +25,7 @@ const LOGGER_MSG_COLORS = {
 
 export const customFormat = format.combine(
 	label({ label: `[MAIN]` }),
-	timestamp({ format: `DD-MM-YY HH:MM:SS` }),
+	timestamp({ format: `DD-MM-YY HH:mm:ss` }),
 	format((info) => {
 		info.level = info.level.toUpperCase();
 		return info;
@@ -48,10 +47,41 @@ export const customFormat = format.combine(
 	})
 );
 
+export const customFormatWithoutColors = format.combine(
+	label({ label: `[MAIN]` }),
+	timestamp({ format: `DD-MM-YY HH:mm:ss` }),
+	format((info) => {
+		info.level = info.level.toUpperCase();
+		return info;
+	})(),
+	format.prettyPrint({
+		colorize : true,
+		depth    : 3
+	}),
+	printf((info) => {
+		// eslint-disable-next-line no-control-regex
+		const cleanLevel = info.level.replace(/\u001b\[.*?m/g, ``);
+		const pre = LOGGER_MSG_ICONS[ cleanLevel as keyof typeof LOGGER_MSG_ICONS ] || `⬛`;
+
+		if (typeof info.message === `object`){
+			return ` ${pre} | ${info[ `label` ]} | ${info[ `timestamp` ]} | ${info.level} | ${pretty_print_json(info.message)}`;
+		}
+		return ` ${pre} | ${info[ `label` ]} | ${info[ `timestamp` ]} | ${info.level} | ${info.message}`;
+	})
+);
 addColors(LOGGER_MSG_COLORS);
 
-const logger = createLogger({
-	level      : `debug`,
-	transports : [ new transports.Console({ format: combine(customFormat) }) ],
-});
-export default logger;
+const getLogger = (filename:string) => {
+	return createLogger({
+		level      : `debug`,
+		transports : [
+			new transports.Console({ format: combine(customFormat) }),
+			new transports.File({
+				filename : filename,
+				format   : combine(customFormatWithoutColors)
+			})
+		],
+	});
+};
+
+export default getLogger;

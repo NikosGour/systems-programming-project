@@ -4,16 +4,17 @@ import dotenv from "dotenv";
 import express_winston from "express-winston";
 import { UUID, UUIDError } from "./functionality/uuid.js";
 import { DummyRecommendationEngine, Recommender, RecommenderError } from "./functionality/recommender.js";
-import logger from "./logger.js";
+import getLogger from "./logger.js";
 import { Event } from "./models/event.js";
-dotenv.config();
-const app = express();
 
+dotenv.config();
+const logger = getLogger(`index.logs`);
+
+const app = express();
 app.use(cors());
 app.use(express_winston.logger({
 	winstonInstance: logger
 }));
-
 
 app.get(`/recommend/:user_id`, (req, res) => {
 	const user_id = req.params.user_id;
