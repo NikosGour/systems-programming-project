@@ -1,0 +1,40 @@
+ 🟦 | [MAIN] | 18-04-24 19:04:61 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:29 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:45 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:74 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:15 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:21 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:88 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:37 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:53 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:74 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:66 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:82 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:53 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:04:47 | INFO | Server is running on http://localhost:6969
+ 🟥 | [MAIN] | 18-04-24 19:04:25 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:26 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟥 | [MAIN] | 18-04-24 19:04:66 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:66 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟥 | [MAIN] | 18-04-24 19:04:33 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:33 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟥 | [MAIN] | 18-04-24 19:04:85 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:85 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟥 | [MAIN] | 18-04-24 19:04:27 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:27 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟥 | [MAIN] | 18-04-24 19:04:67 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:67 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟥 | [MAIN] | 18-04-24 19:04:12 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:12 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟥 | [MAIN] | 18-04-24 19:04:48 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:48 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟥 | [MAIN] | 18-04-24 19:04:88 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:88 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟥 | [MAIN] | 18-04-24 19:04:31 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:31 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟥 | [MAIN] | 18-04-24 19:04:70 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:70 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟥 | [MAIN] | 18-04-24 19:04:10 | ERROR | /recommend/:user_id Trying to create UUID with invalid string: "c73bcdcc26694bf681d3e4ae73fb11fd"
+ 🟦 | [MAIN] | 18-04-24 19:04:10 | INFO | HTTP GET /recommend/c73bcdcc26694bf681d3e4ae73fb11fd
+ 🟦 | [MAIN] | 18-04-24 19:36:27 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 18-04-24 19:36:41 | INFO | Server is running on http://localhost:6969

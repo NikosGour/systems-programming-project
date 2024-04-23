@@ -7,7 +7,7 @@ export class UUID {
 			this._id = id;
 		}
 		else {
-			throw new Error(`Trying to create UUID with invalid string: "${id}"`);
+			throw new UUIDError(`Trying to create UUID with invalid string: "${id}"`);
 		}
 	}
 
@@ -21,4 +21,10 @@ export class UUID {
 		return uuid_regex.test(uuid);
 	}
 
+}
+
+export class UUIDError extends Error{
+	constructor(msg:string) {
+		super(msg);
+	}
 }
