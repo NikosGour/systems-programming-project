@@ -12,7 +12,7 @@ A recommendation system based on a sports betting website. Developed for Uni cou
 
 `node bin/index.js`
 
-## <u>Build and Run with Docker</u>
+## ~~Build and Run with Docker~~
 
-### <u>implementation pending</u>
+### ~~implementation pending~~
 
