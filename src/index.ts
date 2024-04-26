@@ -64,7 +64,6 @@ app.get(`/recommend/:user_id`, (req, res) => {
 	res.send(recommended_items);
 });
 
-
 const port = process.env[ `PORT` ] || 3000;
 app.listen(port, () => {
 	logger.info(`Server is running on http://localhost:${port}`);
