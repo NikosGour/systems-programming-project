@@ -5,7 +5,7 @@ const { combine, colorize, label, timestamp, printf } = format;
 const pretty_print_json = (json: object): string => {
 	return util.inspect(json, {
 		colors : true,
-		depth  : null
+		depth  : null,
 	});
 };
 
@@ -32,7 +32,7 @@ export const customFormat = format.combine(
 	})(),
 	format.prettyPrint({
 		colorize : true,
-		depth    : 3
+		depth    : 3,
 	}),
 	colorize(),
 	printf((info) => {
@@ -56,7 +56,7 @@ export const customFormatWithoutColors = format.combine(
 	})(),
 	format.prettyPrint({
 		colorize : true,
-		depth    : 3
+		depth    : 3,
 	}),
 	printf((info) => {
 		// eslint-disable-next-line no-control-regex
@@ -78,8 +78,8 @@ const getLogger = (filename:string) => {
 			new transports.Console({ format: combine(customFormat) }),
 			new transports.File({
 				filename : filename,
-				format   : combine(customFormatWithoutColors)
-			})
+				format   : combine(customFormatWithoutColors),
+			}),
 		],
 	});
 };

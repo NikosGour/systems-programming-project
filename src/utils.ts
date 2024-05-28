@@ -1,2 +1,2 @@
 
-export type Countries = `FRA` | `GRE` | `GER` | `UK` | `US`
+export type Countries = `FRA` | `GRE` | `GER` | `UK` | `US`;

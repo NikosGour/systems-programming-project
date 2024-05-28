@@ -13,7 +13,7 @@ const logger = getLogger(`index.logs`);
 const app = express();
 app.use(cors());
 app.use(express_winston.logger({
-	winstonInstance: logger
+	winstonInstance: logger,
 }));
 
 app.get(`/recommend/:user_id`, (req, res) => {
