@@ -1,0 +1,28 @@
+services:
+    api:
+        image: systems_programming:latest
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "${PORT}:${PORT}"
+        environment:
+            - RABBITMQ_URI=messaging
+        depends_on:
+            messaging:
+                condition: service_healthy
+
+    messaging:
+        image: rabbitmq:3.13-management
+        ports:
+            - "15672:15672"
+            - "5672:5672"
+        environment:
+            RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER}
+            RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS}
+        healthcheck:
+            test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
+            interval: 20s
+            timeout: 20s
+            retries: 3
+
