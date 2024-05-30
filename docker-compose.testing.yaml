@@ -1,5 +1,5 @@
 services:
-    tesing-api:
+    testing-api:
         image: systems_programming:latest
         build:
             context: .
