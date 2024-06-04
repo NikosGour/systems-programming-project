@@ -124,7 +124,6 @@
         "@stylistic/no-floating-decimal": [ "error" ],
         "@stylistic/no-mixed-spaces-and-tabs": [ "warn" ],
         "@stylistic/no-multiple-empty-lines": [ "warn", { "max": 3 } ],
-        "@stylistic/no-multi-spaces": [ "warn" ],
         "@stylistic/no-trailing-spaces": [ "warn" ],
         "@stylistic/no-whitespace-before-property": [ "warn" ],
         "@stylistic/object-curly-newline": [
@@ -138,7 +137,6 @@
         "@stylistic/object-property-newline": [ "warn" ],
         "@stylistic/operator-linebreak": [ "warn", "after" ],
         "@stylistic/quotes": [ "warn", "backtick" ],
-        "@stylistic/rest-spread-spacing": [ "warn", "always" ],
         "@stylistic/semi": [ "warn", "always" ],
         "@stylistic/semi-spacing": [ "error", 
             { "before": false, 

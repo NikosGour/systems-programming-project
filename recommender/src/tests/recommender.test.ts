@@ -13,7 +13,7 @@ describe(`Testing Recommend.recommend()`, () => {
 		event_id        : new UUID(`87cd6f51-2699-4304-85bc-94038625be8d`),
 		league          : `Euro`,
 		sport           : `Basketball`,
-		participants    : new Array<Team>(5)
+		participants    : new Array<Team>(5),
 	};
 
 	const uuid = new UUID(`a9a0af8d-f571-45d9-8eb3-6a67dc633bbd`);
