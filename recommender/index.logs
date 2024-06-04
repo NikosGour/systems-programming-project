@@ -5705,3 +5705,13 @@
  🟦 | [MAIN] | 28-05-24 20:48:04 | INFO | Queue created
  🟦 | [MAIN] | 28-05-24 20:48:04 | INFO | Consuming messages
  🟦 | [MAIN] | 28-05-24 20:48:04 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 04-06-24 11:21:00 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 04-06-24 11:21:00 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 04-06-24 11:21:00 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 04-06-24 11:21:00 | INFO | Server is running on http://localhost:3000
+ 🟥 | [MAIN] | 04-06-24 11:21:00 | ERROR | Error consuming message: AMQPError: connect ECONNREFUSED 127.0.0.1:5672
+ 🟦 | [MAIN] | 04-06-24 11:21:24 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 04-06-24 11:21:24 | INFO | RabbitMQ URI: localhost
+ 🟥 | [MAIN] | 04-06-24 11:21:24 | ERROR | Error consuming message: AMQPError: connect ECONNREFUSED 127.0.0.1:5672
+ 🟦 | [MAIN] | 04-06-24 11:21:24 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 04-06-24 11:21:24 | INFO | Server is running on http://localhost:6969

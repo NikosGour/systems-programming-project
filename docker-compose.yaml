@@ -2,7 +2,7 @@ services:
     api:
         image: systems_programming:latest
         build:
-            context: .
+            context: ./recommender
             dockerfile: Dockerfile
         ports:
             - "${PORT}:${PORT}"
