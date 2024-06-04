@@ -1,3 +1,5 @@
 import getLogger from "./logger.js";
+import { users } from "./data/users.js";
 const logger = getLogger();
-logger.debug("Hello World!")
+logger.info(users);
+logger.info(users.length);

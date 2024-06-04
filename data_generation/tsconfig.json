@@ -6,7 +6,7 @@
     "outDir": "bin",
     "lib": [
       "ESNext",
-      "DOM"
+      "DOM",
     ],
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -24,8 +24,9 @@
     "noEmitOnError": true,
     "moduleResolution": "Bundler",
     "sourceMap": true,
+    "declaration": true
   },
   "include": [
     "src/**/*.ts"
-  ]
+  ],
 }
