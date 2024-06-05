@@ -71,17 +71,27 @@ export const customFormatWithoutColors = format.combine(
 );
 addColors(LOGGER_MSG_COLORS);
 
-const getLogger = (filename:string) => {
+const getLogger = (filename?:string) => {
+	if (filename){
+		return createLogger({
+			level      : `debug`,
+			transports : [
+				new transports.Console({ format: combine(customFormat) }),
+				new transports.File({
+					filename : filename,
+					format   : combine(customFormatWithoutColors),
+				}),
+			],
+		});
+	}
+
 	return createLogger({
 		level      : `debug`,
 		transports : [
 			new transports.Console({ format: combine(customFormat) }),
-			new transports.File({
-				filename : filename,
-				format   : combine(customFormatWithoutColors),
-			}),
 		],
 	});
+
 };
 
 export default getLogger;

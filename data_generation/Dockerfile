@@ -13,7 +13,7 @@ COPY ["./recommender/tsconfig.json", "./recommender/tsconfig.json"]
 
 RUN mkdir data_generation
 
-WORKDIR data_generation
+WORKDIR /app/data_generation
 
 COPY ./data_generation .
 
@@ -37,9 +37,15 @@ COPY ["./recommender/tsconfig.json", "./recommender/tsconfig.json"]
 
 COPY ["./recommender/package.json", "./recommender/package.json"]
 
+WORKDIR /app/recommender
+
+RUN npm i
+
+WORKDIR /app
+
 RUN mkdir data_generation
 
-WORKDIR data_generation
+WORKDIR /app/data_generation
 
 COPY --from=builder /app/data_generation/bin bin
 

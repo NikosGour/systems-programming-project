@@ -72,7 +72,6 @@ app.get(`/recommend/:user_id`, (req, res) => {
 		}
 		return;
 	}
-	logger.info(`User`);
 
 	res.send(recommended_items);
 });

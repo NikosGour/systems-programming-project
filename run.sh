@@ -17,7 +17,15 @@ done
 
 
 if [[ "$1" == "--build" ]]; then
-	docker compose up --build
+	if [[ "$2" == "-d" ]]; then
+		docker compose up --build -d
+	else
+		docker compose up --build
+	fi
 else
-	docker compose up
+	if [[ "$2" == "-d" ]]; then
+		docker compose up -d
+	else
+		docker compose up
+	fi
 fi

@@ -4,17 +4,20 @@
 
 A recommendation system based on a sports betting website. Developed for Uni course "Systems Programming"
 
-## Run
+## Requirements
+
+You need to have Node.js and npm installed.
+You also need to have TypeScript installed globally.
+
+## Run and Build
 
 `./run.sh --build`
 
-## Build
+## Just run
 
-`tsc`
+`./run.sh`
 
-## Build and Run with Docker
+## Run detached
 
-`docker build -t systems_programming .`
-
-`docker run -it --rm -p 6969:6969 --name recommender_api systems_programming`
+`./run.sh -d`
 
