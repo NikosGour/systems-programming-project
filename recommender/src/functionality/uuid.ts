@@ -21,6 +21,10 @@ export class UUID{
 		return uuid_regex.test(uuid);
 	}
 
+	public static generate_uuid(): UUID{
+		return new UUID(crypto.randomUUID());
+	}
+
 }
 
 export class UUIDError extends Error{
