@@ -1,4 +1,4 @@
-import { Event } from "../models/event.js";
+import { Event } from "../../../recommender/bin/models/event.js";
 export abstract class EventGenerator{
 	private static _instance: EventGeneratorEngine;
 

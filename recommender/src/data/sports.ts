@@ -1,1 +1,0 @@
-export const sports = [ `Handball`, `Football`, `Basketball` ] as const;

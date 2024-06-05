@@ -4,6 +4,7 @@
     "module": "ESNext",
     "rootDir": "src",
     "outDir": "bin",
+    "baseUrl": ".",
     "lib": [
       "ESNext",
       "DOM",
@@ -24,9 +25,15 @@
     "noEmitOnError": true,
     "moduleResolution": "Bundler",
     "sourceMap": true,
-    "declaration": true
+    "declaration": true,
+    "declarationMap": true,
   },
   "include": [
     "src/**/*.ts"
   ],
+  "references": [
+    {
+      "path": "../recommender",
+    }
+  ]
 }

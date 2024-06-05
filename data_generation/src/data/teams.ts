@@ -1,5 +1,4 @@
-import { Team } from "../models/team.js";
-
+import { Team } from "../../../recommender/bin/models/team.js";
 export const teams: Team[] = [
 	{ name: `Team A` },
 	{ name: `Team B` },

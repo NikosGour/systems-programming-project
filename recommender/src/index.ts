@@ -88,3 +88,5 @@ app.listen(port, async() => {
 	logger.info(`Server is running on http://localhost:${port}`);
 	Recommender.set_recommender_method(new DummyRecommendationEngine());
 });
+
+export * from "./functionality/uuid.js";

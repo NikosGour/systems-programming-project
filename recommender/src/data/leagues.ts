@@ -1,1 +1,0 @@
-export const leagues = [ `Extraliga`, `UEFA`, `Euro` ] as const;

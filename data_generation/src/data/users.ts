@@ -1,5 +1,5 @@
-import { UUID } from "../functionality/uuid.js";
-import { User } from "../models/user.js";
+import { User } from "../../../recommender/bin/models/user.js";
+import { UUID } from "../../../recommender/bin/functionality/uuid.js";
 
 export const users: User[] = [
 	{

@@ -1,13 +1,11 @@
-import { Event } from "../models/event.js";
+import { Event } from "../../../recommender/bin/models/event.js";
 import { EventGeneratorEngine } from "./event_generator.js";
 import { teams } from "../data/teams.js";
 import { Country, League, Sport } from "../utils.js";
-import { UUID } from "./uuid.js";
-import { Team } from "../models/team.js";
-import { leagues } from "../data/leagues.js";
-import { sports } from "../data/sports.js";
-import { countries } from "../data/countries.js";
 import getLogger from "../logger.js";
+import { countries, leagues, sports } from "../../../recommender/bin/data/lists.js";
+import { Team } from "../../../recommender/bin/models/team.js";
+import { UUID } from "../../../recommender/bin/functionality/uuid.js";
 
 const logger = getLogger();
 
