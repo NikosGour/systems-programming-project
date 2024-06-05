@@ -1,4 +1,4 @@
-import { countries, currencies, leagues, sports } from "../../recommender/src/data/lists.js";
+import { countries, currencies, leagues, sports } from "../../recommender/bin/data/lists.js";
 
 export type Country = typeof countries[number];
 export type League = typeof leagues[number];

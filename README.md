@@ -4,13 +4,13 @@
 
 A recommendation system based on a sports betting website. Developed for Uni course "Systems Programming"
 
+## Run
+
+`./run.sh --build`
+
 ## Build
 
 `tsc`
-
-## Run
-
-`node bin/index.js`
 
 ## Build and Run with Docker
 

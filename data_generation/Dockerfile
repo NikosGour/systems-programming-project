@@ -1,0 +1,53 @@
+# NOTE: This Dockerfile is only ment to be run from the root of the project
+# if you don't undestand what this means, just don't build the docker image
+# and use the docker-compose file instead
+FROM node:slim AS builder
+
+WORKDIR /app
+
+RUN mkdir -p recommender/bin
+
+COPY ["./recommender/bin", "./recommender/bin"]
+
+COPY ["./recommender/tsconfig.json", "./recommender/tsconfig.json"]
+
+RUN mkdir data_generation
+
+WORKDIR data_generation
+
+COPY ./data_generation .
+
+RUN npm i
+
+RUN npm i -g typescript
+
+# ENTRYPOINT /bin/bash -c "echo 'Hello World'; sleep infinity"
+
+RUN tsc -b
+
+FROM node:slim
+
+WORKDIR /app
+
+RUN mkdir -p recommender/bin
+
+COPY ["./recommender/bin", "./recommender/bin"]
+
+COPY ["./recommender/tsconfig.json", "./recommender/tsconfig.json"]
+
+COPY ["./recommender/package.json", "./recommender/package.json"]
+
+RUN mkdir data_generation
+
+WORKDIR data_generation
+
+COPY --from=builder /app/data_generation/bin bin
+
+COPY --from=builder /app/data_generation/package.json .
+
+COPY --from=builder /app/data_generation/.env .
+
+COPY --from=builder /app/data_generation/node_modules node_modules
+
+ENTRYPOINT [ "node", "bin/index.js" ]
+# ENTRYPOINT /bin/bash -c "echo 'Hello World'; sleep infinity"

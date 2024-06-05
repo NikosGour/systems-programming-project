@@ -1,0 +1,127 @@
+ 🟦 | [MAIN] | 05-06-24 13:05:49 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 13:05:49 | ERROR | Error publishing message: AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 05-06-24 13:05:49 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 13:05:49 | ERROR | Error publishing message: AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 05-06-24 14:48:29 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 14:48:29 | ERROR | Error publishing message: AMQPError: connect ECONNREFUSED 127.0.0.1:5672
+ 🟦 | [MAIN] | 05-06-24 14:48:31 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 14:48:31 | ERROR | Error publishing message: AMQPError: connect ECONNREFUSED 127.0.0.1:5672
+ 🟦 | [MAIN] | 05-06-24 14:56:29 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 14:56:29 | ERROR | Error publishing message: AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 05-06-24 14:56:30 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 14:56:30 | ERROR | Error publishing message: AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 05-06-24 14:56:30 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 14:56:30 | ERROR | Error publishing message: AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 05-06-24 15:54:43 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 15:54:43 | ERROR | Error publishing message: AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 05-06-24 15:54:43 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 15:54:43 | ERROR | Error publishing message: AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 05-06-24 15:55:42 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 15:55:42 | ERROR | Error publishing message: AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 05-06-24 15:55:42 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 15:55:42 | ERROR | Error publishing message: AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 05-06-24 15:55:43 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 15:55:43 | ERROR | Error publishing message: AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 05-06-24 15:55:52 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:55:52 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:55:52 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:55:52 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:55:52 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:55:52 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:55:52 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:55:52 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:55:52 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 15:55:56 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:55:56 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:55:56 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:55:56 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:55:56 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:55:56 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:55:56 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:55:56 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 15:55:58 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:55:58 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:55:58 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:55:58 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:55:58 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:55:58 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:55:58 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:55:58 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 15:56:12 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:56:12 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:56:12 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:56:12 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:56:12 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:56:12 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:56:12 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:56:12 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 15:57:17 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:57:17 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:57:17 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:57:17 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:57:17 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:57:17 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:57:17 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:57:17 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 15:57:24 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:57:24 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:57:24 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:57:24 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:57:24 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:57:24 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:57:24 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:57:24 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 15:57:31 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:57:31 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:57:31 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:57:31 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:57:31 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:57:31 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:57:31 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:57:31 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 15:57:53 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:57:53 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:57:53 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:57:53 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:57:53 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:57:53 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:57:53 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:57:53 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 15:58:31 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:58:31 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:58:31 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:58:31 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:58:31 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:58:31 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:58:31 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:58:31 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 15:58:48 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:58:48 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:58:48 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:58:48 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:58:48 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:58:48 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:58:48 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:58:48 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 15:59:23 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:59:23 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:59:23 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:59:23 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:59:23 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:59:23 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:59:23 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:59:23 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 15:59:40 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:59:40 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 05-06-24 15:59:40 | INFO | Creating channel
+ 🟦 | [MAIN] | 05-06-24 15:59:40 | INFO | Channel created
+ 🟦 | [MAIN] | 05-06-24 15:59:40 | INFO | Creating queue
+ 🟦 | [MAIN] | 05-06-24 15:59:40 | INFO | Queue created
+ 🟦 | [MAIN] | 05-06-24 15:59:40 | INFO | Publishing message
+ 🟦 | [MAIN] | 05-06-24 15:59:40 | INFO | Message published
+ 🟦 | [MAIN] | 05-06-24 17:16:10 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 17:16:10 | ERROR | Error publishing message: AMQPError: connect ECONNREFUSED 127.0.0.1:5672
+ 🟦 | [MAIN] | 05-06-24 17:16:10 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 17:16:10 | ERROR | Error publishing message: AMQPError: connect ECONNREFUSED 127.0.0.1:5672
+ 🟦 | [MAIN] | 05-06-24 17:42:11 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 05-06-24 17:42:11 | ERROR | Error publishing message: AMQPError: connect ECONNREFUSED 127.0.0.1:5672

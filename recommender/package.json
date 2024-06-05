@@ -9,7 +9,7 @@
     "test_watch": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest --watchAll",
     "coverage": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest --coverage",
     "dev": "nodemon bin/index.js",
-    "clean": "rm -rf bin;tsc",
+    "clean": "rm -rf bin;rm tsconfig.tsbuildinfo;tsc",
     "build": "npx tsc"
   },
   "keywords": [],

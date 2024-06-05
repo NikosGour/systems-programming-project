@@ -8,7 +8,7 @@ RUN npm i
 
 RUN npm i -g typescript
 
-RUN tsc
+RUN tsc -b
 
 FROM node:slim
 

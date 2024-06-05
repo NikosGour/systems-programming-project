@@ -8,10 +8,23 @@ services:
             - "${PORT}:${PORT}"
         environment:
             - RABBITMQ_URI=messaging
+        restart: on-failure
         depends_on:
             messaging:
                 condition: service_healthy
 
+    data_generation:
+        build:
+            context: .
+            dockerfile: ./data_generation/Dockerfile
+        environment:
+            - RABBITMQ_URI=messaging
+        restart: on-failure
+        depends_on:
+            messaging:
+                condition: service_healthy
+            api:
+                condition: service_started
     messaging:
         image: rabbitmq:3.13-management
         ports:
