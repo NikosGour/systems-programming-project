@@ -6,14 +6,20 @@ import { UUID } from '../../../recommender/bin/functionality/uuid.js';
 import { getRandomInt } from '../../../recommender/bin/utils.js';
 import dotenv from 'dotenv';
 dotenv.config();
+const MYSQL_URI = process.env[ `MYSQL_URI` ] || `localhost`;
+const MYSQL_USER = process.env[ `MYSQL_USER` ] || `root`;
+const MYSQL_ROOT_PASSWORD = process.env[ `MYSQL_ROOT_PASSWORD` ] || `root`;
+const MYSQL_DATABASE = process.env[ `MYSQL_DATABASE` ] || `test`;
+
+const MYSQL_CREDENTIALS: mysql2.ConnectionOptions = {
+	host     : MYSQL_URI,
+	user     : MYSQL_USER,
+	password : MYSQL_ROOT_PASSWORD,
+	database : MYSQL_DATABASE,
+};
 
 const get_connection = async() => {
-	return await mysql2.createConnection({
-		host     : `localhost`,
-		user     : `root`,
-		password : `root`,
-		database : `systems_programing`,
-	});
+	return await mysql2.createConnection(MYSQL_CREDENTIALS);
 };
 
 const create_tables = async() => {
@@ -175,7 +181,7 @@ async function insert_coupons(){
 }
 
 await create_tables();
-// await insert_users();
 // await insert_teams();
+// await insert_users();
 await insert_coupons();
 process.exit(0);

@@ -42,7 +42,7 @@ export class DummyRecommendationEngine implements RecommendationEngine{
 			participants    : new Array<Team>(5),
 		};
 
-		this.events = [ { ... event }, { ... event }, { ... event }, { ... event }, { ... event }, { ... event }, { ... event } ];
+		this.events = [ { ...event }, { ...event }, { ...event }, { ...event }, { ...event }, { ...event }, { ...event } ];
 	}
 
 	public async recommend(_user: UUID): Promise<Event[]>{

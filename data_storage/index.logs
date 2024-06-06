@@ -6787,3 +6787,2002 @@
  ],
  "sport": "Football"
 }
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:18.535Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:18.535Z",
+ "event_id": {
+  "_id": "a6871798-29e7-4fbc-9ca7-e72df7524ef9"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:19.139Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:19.139Z",
+ "event_id": {
+  "_id": "03575aba-c134-4caa-b627-fbbb1cbf1fd7"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:19.542Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:19.542Z",
+ "event_id": {
+  "_id": "1d5c4961-ae9f-4561-a1a1-962054a3accf"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:19.945Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:19.945Z",
+ "event_id": {
+  "_id": "dba20dcb-2a14-45a7-8666-2d1ff7b0e246"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:20.347Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:20.347Z",
+ "event_id": {
+  "_id": "1018ba66-b983-4a8f-9267-cbacc179ee7b"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:20.750Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:20.750Z",
+ "event_id": {
+  "_id": "846a5dcf-8352-4ccb-9b2e-ccbcea476f22"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:21.153Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:21.153Z",
+ "event_id": {
+  "_id": "aee7e7ee-2639-46ff-8f91-12f8fb123506"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:44 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:21.555Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:21.555Z",
+ "event_id": {
+  "_id": "1d72c4db-2075-48df-91e0-767b73baa77a"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:21.958Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:21.958Z",
+ "event_id": {
+  "_id": "a7bde66a-7ace-4dbe-86b1-7b265f0058b3"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:22.361Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:22.361Z",
+ "event_id": {
+  "_id": "5f16e424-9253-47af-8425-0e3c35267430"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:22.764Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:22.764Z",
+ "event_id": {
+  "_id": "c5ee11aa-8e8f-4ad7-a593-8d7862db87c4"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:23.167Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:23.167Z",
+ "event_id": {
+  "_id": "94a11212-b1be-4ddf-b012-cb27e2682eb3"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:23.571Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:23.571Z",
+ "event_id": {
+  "_id": "892c9c5f-996a-4f97-801a-f6cf6f2264df"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:23.973Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:23.973Z",
+ "event_id": {
+  "_id": "0e770e9c-0293-4161-a57d-29558a50693e"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:24.376Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:24.376Z",
+ "event_id": {
+  "_id": "4b82e661-0d9a-4bbb-b77b-f027ca069a1a"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:24.779Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:24.779Z",
+ "event_id": {
+  "_id": "1757207c-fc74-4792-9595-275d66c0a41f"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:25.183Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:25.183Z",
+ "event_id": {
+  "_id": "b253dda4-476c-475f-973f-b7013eff6c50"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:25.586Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:25.586Z",
+ "event_id": {
+  "_id": "7ab725b7-171f-4845-ad18-7f61b87ec83a"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:45 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:25.988Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:25.988Z",
+ "event_id": {
+  "_id": "5021c00c-3ef1-43a0-b88f-06c52430cbe0"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:26.392Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:26.392Z",
+ "event_id": {
+  "_id": "7d6a91b9-d6b1-4e56-9e30-888c98cc7d9f"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:26.795Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:26.795Z",
+ "event_id": {
+  "_id": "797a5eb0-cf04-4054-81d1-49b2aae3ec7a"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:27.198Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:27.198Z",
+ "event_id": {
+  "_id": "7b63d5e1-365f-4bdf-b509-dbf2b773865e"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:27.601Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:27.601Z",
+ "event_id": {
+  "_id": "f34a7f22-96f7-4716-b24f-329b0abc234f"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:28.004Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:28.004Z",
+ "event_id": {
+  "_id": "360c738c-a21a-4e8e-be87-748deed21a70"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:28.408Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:28.408Z",
+ "event_id": {
+  "_id": "8e39bd70-0246-460c-8e6b-13a6f907d37e"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:28.810Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:28.810Z",
+ "event_id": {
+  "_id": "3033a6ef-d622-46a5-ba39-0120bc1a9b68"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:29.214Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:29.214Z",
+ "event_id": {
+  "_id": "91c28317-e0db-4c65-be33-68876d7a69a5"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:29.616Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:29.616Z",
+ "event_id": {
+  "_id": "134e571d-1f93-474a-a326-a5e9dcf4c131"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:30.019Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:30.019Z",
+ "event_id": {
+  "_id": "b44ee88a-de1b-49a0-ab27-0a389542dfd6"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:30.422Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:30.422Z",
+ "event_id": {
+  "_id": "5f9d5bb2-f5b6-4501-916d-cc9cb54e645b"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:30.825Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:30.825Z",
+ "event_id": {
+  "_id": "15eb2413-860e-4589-9b53-c770ce2aaa9c"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:31.227Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:31.227Z",
+ "event_id": {
+  "_id": "d0866515-dfc9-4848-9d52-4f7fb5cc740f"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:46 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:31.630Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:31.630Z",
+ "event_id": {
+  "_id": "81bc5f47-4e97-4e15-acce-1a601c82825c"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:32.033Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:32.033Z",
+ "event_id": {
+  "_id": "f87206f7-2196-45ed-a5a2-33dfe2f1a50b"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:32.435Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:32.435Z",
+ "event_id": {
+  "_id": "0d6d22a2-c4bb-4c1a-b5bf-3353d0c0ca47"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:32.839Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:32.839Z",
+ "event_id": {
+  "_id": "f58d4e27-cc81-4b64-9499-449299fc4185"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:33.242Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:33.242Z",
+ "event_id": {
+  "_id": "bea71800-7368-41bf-9f10-088983cf001f"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:33.644Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:33.644Z",
+ "event_id": {
+  "_id": "9a86d8b9-6b11-4460-b54e-16d53f299bbb"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:34.046Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:34.046Z",
+ "event_id": {
+  "_id": "1f9d5f58-e009-460f-a981-1fe62e4ca5ed"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:34.449Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:34.449Z",
+ "event_id": {
+  "_id": "9a4f6b67-6d33-44f7-a95a-fac342bed9f0"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:34.852Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:34.852Z",
+ "event_id": {
+  "_id": "8b9fd647-1be5-499b-938e-4cff0a8cc4af"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:35.254Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:35.254Z",
+ "event_id": {
+  "_id": "93d2f99b-39fe-40a5-a3d3-e4c5b2bf4089"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:35.657Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:35.657Z",
+ "event_id": {
+  "_id": "f788a41b-1f24-43e3-8a8d-2a4cbb393f91"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:36.060Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:36.060Z",
+ "event_id": {
+  "_id": "5837665c-5957-4568-b511-9a2792b72caa"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:47 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:36.464Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:36.464Z",
+ "event_id": {
+  "_id": "e8bb31ed-3628-4a24-be44-6cd5c314f76f"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:36.867Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:36.867Z",
+ "event_id": {
+  "_id": "197cd755-8813-4b7d-93e9-bde90abb2972"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:37.269Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:37.269Z",
+ "event_id": {
+  "_id": "e4f22f5b-6c60-4900-a2c1-d3433db6656b"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:37.672Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:37.672Z",
+ "event_id": {
+  "_id": "6ce48d8b-10a1-44ee-a304-ff423a167dac"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:38.075Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:38.075Z",
+ "event_id": {
+  "_id": "c8f1a45c-10d6-4d84-9449-6b6de35bde8e"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:38.478Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:38.478Z",
+ "event_id": {
+  "_id": "1b21fe5b-d1e5-45be-a8a2-5d0e64f98aa6"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:38.881Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:38.881Z",
+ "event_id": {
+  "_id": "7dbb6558-2a56-4a95-a7ca-fa19fbc57b0c"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:39.283Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:39.283Z",
+ "event_id": {
+  "_id": "7bbb0b9e-872c-4401-96df-a25a83f67874"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:39.686Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:39.686Z",
+ "event_id": {
+  "_id": "cc7f0341-6f67-4374-835a-595095391e9d"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:40.089Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:40.089Z",
+ "event_id": {
+  "_id": "e73ef3da-eb37-41f5-91f5-b0ed73edd542"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:40.491Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:40.491Z",
+ "event_id": {
+  "_id": "6fc2a5ce-c95d-4756-9cb6-df1cb7fb94ab"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:40.895Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:40.895Z",
+ "event_id": {
+  "_id": "b83719df-3312-4fce-9f29-3d4e92dd106a"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:48 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:41.297Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:41.297Z",
+ "event_id": {
+  "_id": "dfc75677-b237-4223-ae19-e74e72c04ac7"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:41.700Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:41.700Z",
+ "event_id": {
+  "_id": "b1d9786e-f038-4980-b17f-1080e8e46acd"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:42.102Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:42.102Z",
+ "event_id": {
+  "_id": "7408966f-ae76-4064-a456-5fbb8351df40"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:42.504Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:42.504Z",
+ "event_id": {
+  "_id": "b283cc17-dd5d-44eb-b036-9cf46fda9e81"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:42.906Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:42.906Z",
+ "event_id": {
+  "_id": "48a186f1-aad5-4d1b-9f9e-617929bbd60b"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:43.309Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:43.309Z",
+ "event_id": {
+  "_id": "3e14a318-ea96-4322-8f18-032cd5512c95"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:43.712Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:43.712Z",
+ "event_id": {
+  "_id": "52c63150-7eb6-4eb8-b917-215043f22c24"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:44.115Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:44.115Z",
+ "event_id": {
+  "_id": "29d3c1f8-6823-4c8c-a319-7ded6e3bea91"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:44.517Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:44.517Z",
+ "event_id": {
+  "_id": "d12b4d95-71d4-4a89-b6df-064e85ea9fee"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:44.921Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:44.921Z",
+ "event_id": {
+  "_id": "03f6751a-20d0-4799-bd92-3fc1629b1528"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:45.323Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:45.323Z",
+ "event_id": {
+  "_id": "73786c32-4b5a-4315-9c90-5a2e4a45f123"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:45.727Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:45.727Z",
+ "event_id": {
+  "_id": "01d2cfee-d7cb-437b-a0db-34ce68d0793a"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:46.130Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:46.130Z",
+ "event_id": {
+  "_id": "a1a0ed24-e7a4-4572-b496-7ef1d9455e5d"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:46.532Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:46.532Z",
+ "event_id": {
+  "_id": "09740cc6-4d6b-4072-a5b2-c16db86fe4b1"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:49 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:46.935Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:46.935Z",
+ "event_id": {
+  "_id": "528e035f-672e-40c4-8c64-128104854350"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:47.338Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:47.338Z",
+ "event_id": {
+  "_id": "fd59e30b-9d15-4d49-94da-f0ad0e3ba507"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:47.740Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:47.740Z",
+ "event_id": {
+  "_id": "d73d8e9b-a4f7-4861-998c-e5fc03ec3493"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:48.143Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:48.143Z",
+ "event_id": {
+  "_id": "13602f0f-b4ca-4b68-9ded-692cd866ac8d"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:48.547Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:48.547Z",
+ "event_id": {
+  "_id": "e0b72368-8748-4825-a224-083b13e28b92"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:48.950Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:48.950Z",
+ "event_id": {
+  "_id": "8212c134-f21c-426f-a14e-b1899105ca03"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:49.353Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:49.353Z",
+ "event_id": {
+  "_id": "77aaf225-b4db-4c15-bf2d-00c5b92dab38"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:49.755Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:49.755Z",
+ "event_id": {
+  "_id": "4f18ddaa-34f6-4e15-a5f4-7bc7f5b72578"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:50.158Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:50.158Z",
+ "event_id": {
+  "_id": "bb880d1b-9068-485a-9683-56e078460a0c"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:50.562Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:50.562Z",
+ "event_id": {
+  "_id": "e2e41431-413b-4864-9f09-3cfadeb63640"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:50 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:50.965Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:50.965Z",
+ "event_id": {
+  "_id": "5794b92e-92d9-4a3d-b0ac-1d0e403c8a0d"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:51 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:51 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:51.368Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:51.368Z",
+ "event_id": {
+  "_id": "f37843ac-9f97-4dbe-9616-893a41cb41ec"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:51 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:51 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:51.770Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:51.770Z",
+ "event_id": {
+  "_id": "d0e0bd0c-3a74-4ca5-a712-611ccb8051f1"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:52 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:52 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:52.173Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:52.173Z",
+ "event_id": {
+  "_id": "a7a262bb-cbb9-4143-be34-140277449297"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:52 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:52 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:52.642Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:52.642Z",
+ "event_id": {
+  "_id": "8a7b9a45-66d0-4fd2-89ef-28639238033d"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:53 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:53 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:53.044Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:53.044Z",
+ "event_id": {
+  "_id": "f9371450-6552-418a-84f8-3bcfb46719d8"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:53 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:53 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:53.447Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:53.447Z",
+ "event_id": {
+  "_id": "64bcfaaf-d4e9-4d6c-9821-769b755596e1"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:53 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:53 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:53.851Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:53.851Z",
+ "event_id": {
+  "_id": "ef099f3d-65c1-4328-be1d-c7520105875a"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:54 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:54 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:54.253Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:54.253Z",
+ "event_id": {
+  "_id": "4a275fe9-f012-4b87-be04-1659107b5a8e"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:54 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:54 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:54.702Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:54.702Z",
+ "event_id": {
+  "_id": "6d8307ff-693b-4d77-bde1-33213ab2a23a"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:55 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:55 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:55.105Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:55.105Z",
+ "event_id": {
+  "_id": "ada0f021-704d-47ab-9af0-90ebb857aed5"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:55 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:55 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:55.507Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T15:58:55.507Z",
+ "event_id": {
+  "_id": "a9cc3204-d28f-4c8d-a48b-fe658aa06b00"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:55 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:55 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:55.910Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:55.910Z",
+ "event_id": {
+  "_id": "d5d012b0-4e83-4b5f-8100-e5c359f74e08"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:56 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:56 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:56.312Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:56.312Z",
+ "event_id": {
+  "_id": "5ffebdda-bab5-4ed8-90ee-a4b6b9fc4608"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:56 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:56 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:56.715Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:56.715Z",
+ "event_id": {
+  "_id": "ac0a22e8-0306-44b0-906a-52513c443cfa"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:57 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:57 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:57.117Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:57.117Z",
+ "event_id": {
+  "_id": "45d64078-0184-4334-9db9-34cdb2026855"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:57 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:57 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:57.519Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:58:57.519Z",
+ "event_id": {
+  "_id": "5dfb9538-49d8-434b-955d-4188b66cd0d4"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:57 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:57 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:57.921Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:57.921Z",
+ "event_id": {
+  "_id": "3bd1886c-f1e0-48d5-849a-074f8045a9af"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:58 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:58 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:58.324Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:58:58.324Z",
+ "event_id": {
+  "_id": "10f12aca-b64a-493a-9ed1-c2df2f78954d"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:58 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:58 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:58.726Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:58.726Z",
+ "event_id": {
+  "_id": "44268ab1-a670-4306-9f39-d2c0d372314b"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 18:58:59 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:58:59 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:59.129Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T15:58:59.129Z",
+ "event_id": {
+  "_id": "b61153af-6959-4489-85c1-913acb12458f"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:59:00 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:59:00 | INFO | {
+ "begin_timestamp": "2024-06-06T15:58:59.532Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T15:58:59.532Z",
+ "event_id": {
+  "_id": "102a52b5-c6bf-49a5-9bb8-299051fa678f"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:59:00 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:59:00 | INFO | {
+ "begin_timestamp": "2024-06-06T15:59:00.153Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:59:00.153Z",
+ "event_id": {
+  "_id": "c24791a8-f7f5-46f4-8964-a405a74a96db"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:59:00 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:59:00 | INFO | {
+ "begin_timestamp": "2024-06-06T15:59:00.597Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T15:59:00.597Z",
+ "event_id": {
+  "_id": "7eb4f8b3-816c-4a37-9ad1-496ceb0d4c38"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 18:59:01 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 18:59:01 | INFO | {
+ "begin_timestamp": "2024-06-06T15:59:00.999Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T15:59:00.999Z",
+ "event_id": {
+  "_id": "0994bed0-6a9b-4a6e-8c7e-4f08a11cd544"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Football"
+}

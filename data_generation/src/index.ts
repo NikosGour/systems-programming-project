@@ -36,6 +36,5 @@ while (true){
 	const msg = JSON.stringify(EventGenerator.generate_event(), null, 1);
 	// const msg = `nikos`;
 	await prod.publish(msg);
-	// await sleep(getRandomInt(MAX_SLEEP_SECS) * 1000);
-	await sleep(400);
+	await sleep(getRandomInt(MAX_SLEEP_SECS) * 1000);
 }

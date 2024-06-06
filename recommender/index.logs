@@ -6248,3 +6248,117 @@
  🟦 | [MAIN] | 06-06-24 18:12:57 | INFO | Trying to recommend items
  🟦 | [MAIN] | 06-06-24 18:12:57 | INFO | Items recommended
  🟦 | [MAIN] | 06-06-24 18:12:57 | INFO | HTTP GET /recommend/28f0c0a1-4cdb-4227-bb36-6f7eaceb0593
+ 🟦 | [MAIN] | 06-06-24 18:59:31 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 18:59:31 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 18:59:31 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 18:59:31 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 18:59:31 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 18:59:31 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 18:59:31 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 18:59:31 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 18:59:31 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 18:59:31 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 18:59:49 | INFO | User ID: 029b7921-d64f-45e4-883e-aec4436f442c
+ 🟦 | [MAIN] | 06-06-24 18:59:49 | INFO | Trying to recommend items
+ 🟥 | [MAIN] | 06-06-24 18:59:49 | ERROR | Unexpected Error thrown: Incorrect arguments to mysqld_stmt_execute
+ 🟦 | [MAIN] | 06-06-24 19:00:51 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 19:00:51 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 19:00:51 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 19:00:51 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 19:00:51 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 19:00:51 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 19:00:51 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 19:00:51 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 19:00:51 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 19:00:51 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 19:00:54 | INFO | User ID: 029b7921-d64f-45e4-883e-aec4436f442c
+ 🟦 | [MAIN] | 06-06-24 19:00:54 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:00:54 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:00:54 | INFO | HTTP GET /recommend/029b7921-d64f-45e4-883e-aec4436f442c
+ 🟦 | [MAIN] | 06-06-24 19:05:47 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 19:05:47 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 19:05:47 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 19:05:47 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 19:05:47 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 19:05:47 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 19:05:47 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 19:05:47 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 19:05:47 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 19:05:47 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 19:06:46 | INFO | User ID: 029b7921-d64f-45e4-883e-aec4436f442c
+ 🟦 | [MAIN] | 06-06-24 19:06:46 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:06:46 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:06:46 | INFO | HTTP GET /recommend/029b7921-d64f-45e4-883e-aec4436f442c
+ 🟦 | [MAIN] | 06-06-24 19:26:35 | INFO | User ID: 029b7921-d64f-45e4-883e-aec4436f442c
+ 🟦 | [MAIN] | 06-06-24 19:26:35 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:26:35 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:26:35 | INFO | HTTP GET /recommend/029b7921-d64f-45e4-883e-aec4436f442c
+ 🟦 | [MAIN] | 06-06-24 19:53:05 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 19:53:14 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:53:14 | INFO | Trying to recommend items
+ 🟥 | [MAIN] | 06-06-24 19:53:14 | ERROR | Unexpected Error thrown: Can't add new command when connection is in closed state
+ 🟦 | [MAIN] | 06-06-24 19:53:33 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 19:53:35 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:53:35 | INFO | Trying to recommend items
+ 🟥 | [MAIN] | 06-06-24 19:53:35 | ERROR | Unexpected Error thrown: Can't add new command when connection is in closed state
+ 🟦 | [MAIN] | 06-06-24 19:54:33 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 19:54:36 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:54:36 | INFO | Trying to recommend items
+ 🟥 | [MAIN] | 06-06-24 19:54:36 | ERROR | Unexpected Error thrown: Can't add new command when connection is in closed state
+ 🟦 | [MAIN] | 06-06-24 19:58:10 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 19:58:12 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:12 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:12 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:12 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:14 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:14 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:14 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:14 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:15 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:15 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:15 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:15 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:15 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:15 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:15 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:15 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:16 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:16 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:16 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:16 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:16 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:16 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:16 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:16 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:16 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:16 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:17 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:17 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:17 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:17 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:17 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:17 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:17 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:17 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:17 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:17 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:18 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:19 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:58:19 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:58:19 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:58:19 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 19:59:18 | INFO | User ID: 029b7921-d64f-45e4-883e-aec4436f442c
+ 🟦 | [MAIN] | 06-06-24 19:59:18 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 19:59:18 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 19:59:18 | INFO | HTTP GET /recommend/029b7921-d64f-45e4-883e-aec4436f442c

@@ -38,7 +38,8 @@
                 "selector": "variableLike",
                 "format": [
                     "snake_case",
-                    "camelCase"
+                    "camelCase",
+                    "UPPER_CASE"
                 ],
                 "leadingUnderscore": "allow",
                 "trailingUnderscore": "allow"
@@ -47,6 +48,7 @@
         "arrow-body-style": [ "warn", "always" ],
         "no-array-constructor": [ "error" ],
         "no-const-assign": [ "error" ],
+        "no-constant-condition": [ "warn" ],
         "no-dupe-class-members": [ "error" ],
         "no-duplicate-imports": [ "error" ],
         "no-this-before-super": [ "error" ],
@@ -137,6 +139,7 @@
         "@stylistic/object-property-newline": [ "warn" ],
         "@stylistic/operator-linebreak": [ "warn", "after" ],
         "@stylistic/quotes": [ "warn", "backtick" ],
+        "@stylistic/rest-spread-spacing": [ "warn", "never" ],
         "@stylistic/semi": [ "warn", "always" ],
         "@stylistic/semi-spacing": [ "error", 
             { "before": false, 

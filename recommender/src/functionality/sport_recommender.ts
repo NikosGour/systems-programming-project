@@ -1,6 +1,5 @@
 import { Bet } from "../database/bet.js";
 import { Coupon } from "../database/coupon.js";
-import { get_bets_by_coupon_uuid, get_coupons_by_user_uuid, get_event_by_id, get_event_by_sport, get_x_events } from "../database/utils_database.js";
 import { Event } from "../models/event.js";
 import * as database_e from "../database/event.js";
 import { RecommendationEngine } from "./recommender.js";
@@ -8,16 +7,23 @@ import { UUID } from "./uuid.js";
 import getLogger from "../logger.js";
 import { Team } from "../models/team.js";
 import { convert_to_country, convert_to_league, convert_to_sport, countries, leagues } from "../data/lists.js";
+import { MySQLDatabaseClient } from '../database/utils_database.js';
 
 const logger = getLogger();
 export class SportRecommenderEngine implements RecommendationEngine{
+	private db_client: MySQLDatabaseClient;
+
+	constructor(db_client: MySQLDatabaseClient){
+		this.db_client = db_client;
+	}
+
 	async recommend(user: UUID): Promise<Event[]>{
 		const recommended_items: Event[] = [];
-		const coupons:Coupon[] = await get_coupons_by_user_uuid(user);
+		const coupons:Coupon[] = await this.db_client.get_coupons_by_user_uuid(user);
 
 		const bets:Bet[] = [];
 		for (const coupon of coupons){
-			const bets_temp = await get_bets_by_coupon_uuid(new UUID(coupon.uuid));
+			const bets_temp = await this.db_client.get_bets_by_coupon_uuid(new UUID(coupon.uuid));
 			for (const bet of bets_temp){
 				bets.push(bet);
 			}
@@ -25,7 +31,7 @@ export class SportRecommenderEngine implements RecommendationEngine{
 
 		const events:database_e.Event[] = [];
 		for (const bet of bets){
-			const event = await get_event_by_id(new UUID(bet.event_id));
+			const event = await this.db_client.get_event_by_id(new UUID(bet.event_id));
 			events.push(event);
 		}
 
@@ -50,7 +56,7 @@ export class SportRecommenderEngine implements RecommendationEngine{
 		}
 
 		if (max_sport == ``){
-			const events:database_e.Event[] = await get_x_events(5);
+			const events:database_e.Event[] = await this.db_client.get_x_events(5);
 			for (const event of events){
 				const e:Event = {
 					begin_timestamp : event.start_date,
@@ -68,7 +74,7 @@ export class SportRecommenderEngine implements RecommendationEngine{
 			return recommended_items;
 		}
 
-		const sport_events:database_e.Event[] = await get_event_by_sport(max_sport, 5);
+		const sport_events:database_e.Event[] = await this.db_client.get_event_by_sport(max_sport, 5);
 
 		for (const event of sport_events){
 			const e:Event = {

@@ -8,6 +8,7 @@ services:
             - "${PORT}:${PORT}"
         environment:
             - RABBITMQ_URI=messaging
+            - MYSQL_URI=mysql_db
         restart: on-failure
         depends_on:
             messaging:
@@ -28,8 +29,8 @@ services:
 
     data_storage:
         build:
-            context: ./data_storage
-            dockerfile: Dockerfile
+            context: .
+            dockerfile: ./data_storage/Dockerfile
         environment:
             - RABBITMQ_URI=messaging
             - MYSQL_URI=mysql_db
@@ -55,7 +56,7 @@ services:
             retries: 3
 
     mysql_db:
-        image: mysql:latest
+        image: mysql:8.0
         ports:
             - "3306:3306"
         environment:

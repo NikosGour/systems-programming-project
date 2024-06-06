@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Store directories in a variable
-directories="recommender data_generation"
+directories="recommender data_generation data_storage"
 
 # Print the directories
 echo $directories
@@ -16,16 +16,16 @@ for dir in $directories; do
 done
 
 
-if [[ "$1" == "--build" ]]; then
-	if [[ "$2" == "-d" ]]; then
-		docker compose up --build -d
-	else
-		docker compose up --build
-	fi
-else
-	if [[ "$2" == "-d" ]]; then
-		docker compose up -d
-	else
-		docker compose up
-	fi
-fi
+# if [[ "$1" == "--build" ]]; then
+# 	if [[ "$2" == "-d" ]]; then
+# 		docker compose up --build -d
+# 	else
+# 		docker compose up --build
+# 	fi
+# else
+# 	if [[ "$2" == "-d" ]]; then
+# 		docker compose up -d
+# 	else
+# 		docker compose up
+# 	fi
+# fi

@@ -6,12 +6,9 @@ import { UUID, UUIDError } from "./functionality/uuid.js";
 import { DummyRecommendationEngine, Recommender, RecommenderError } from "./functionality/recommender.js";
 import getLogger from "./logger.js";
 import { Event, isEvent } from "./models/event.js";
-import { Producer } from "./messaging/Producer.js";
-import { AMQPClient } from "@cloudamqp/amqp-client";
-import { exit } from "process";
-import { cli } from "winston/lib/winston/config/index.js";
-import { Consumer } from "./messaging/Consumer.js";
+import mysql2 from "mysql2/promise";
 import { SportRecommenderEngine } from "./functionality/sport_recommender.js";
+import { MySQLDatabaseClient } from "./database/utils_database.js";
 
 dotenv.config();
 const logger = getLogger(`index.logs`);
@@ -21,13 +18,6 @@ app.use(cors());
 app.use(express_winston.logger({
 	winstonInstance: logger,
 }));
-
-const rabbitmq_uri = process.env[ `RABBITMQ_URI` ] || `localhost`;
-logger.info(`RabbitMQ URI: ${rabbitmq_uri}`);
-const client:AMQPClient = new AMQPClient(`amqp://${rabbitmq_uri}`);
-client.username = process.env[ `RABBITMQ_DEFAULT_USER` ] || `guest`;
-client.password = process.env[ `RABBITMQ_DEFAULT_PASS` ] || `guest`;
-
 
 
 app.get(`/recommend/:user_id`, async(req, res) => {
@@ -45,6 +35,7 @@ app.get(`/recommend/:user_id`, async(req, res) => {
 		else if (e instanceof Error){
 			logger.error(`Unexpected Error thrown: ${e.message}`);
 			res.status(500).send(`There was an Error in the server`);
+			throw e;
 		}
 		else {
 			logger.error(`Unexpected '${typeof e}' was thrown: ${e}`);
@@ -82,14 +73,22 @@ app.get(`/recommend/:user_id`, async(req, res) => {
 
 const port = process.env[ `PORT` ] || 3000;
 app.listen(port, async() => {
-	// logger.info(`Starting the Producer`);
-	// const prod:Producer = new Producer(client, `events`);
-	// await prod.publish(`Hello Nikos`, `events`);
-	logger.info(`Starting Consumer`);
-	const cons:Consumer = new Consumer(client, `events`);
-	await cons.consume();
+
+	const MYSQL_URI = process.env[ `MYSQL_URI` ] || `localhost`;
+	const MYSQL_USER = process.env[ `MYSQL_USER` ] || `root`;
+	const MYSQL_ROOT_PASSWORD = process.env[ `MYSQL_ROOT_PASSWORD` ] || `root`;
+	const MYSQL_DATABASE = process.env[ `MYSQL_DATABASE` ] || `test`;
+
+	const MYSQL_CREDENTIALS: mysql2.ConnectionOptions = {
+		host     : MYSQL_URI,
+		user     : MYSQL_USER,
+		password : MYSQL_ROOT_PASSWORD,
+		database : MYSQL_DATABASE,
+	};
+	const mysql_db = new MySQLDatabaseClient(MYSQL_CREDENTIALS);
+
 	logger.info(`Server is running on http://localhost:${port}`);
-	Recommender.set_recommender_method(new SportRecommenderEngine());
+	Recommender.set_recommender_method(new SportRecommenderEngine(mysql_db));
 });
 
 export * from "./functionality/uuid.js";
