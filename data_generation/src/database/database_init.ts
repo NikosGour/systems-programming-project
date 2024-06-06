@@ -173,7 +173,7 @@ async function insert_coupons(){
 }
 
 await create_tables();
-// await insert_users();
-// await insert_teams();
+await insert_users();
+await insert_teams();
 await insert_coupons();
 process.exit(0);
