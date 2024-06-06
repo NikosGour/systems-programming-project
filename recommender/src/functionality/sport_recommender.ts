@@ -39,6 +39,7 @@ export class SportRecommenderEngine implements RecommendationEngine{
 			}
 		}
 
+		logger.info(sports);
 		let max_sport:string = ``;
 		let max_num:number = 0;
 		for (const [ sport, num ] of sports){

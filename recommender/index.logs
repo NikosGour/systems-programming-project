@@ -6216,3 +6216,35 @@
  🟦 | [MAIN] | 06-06-24 17:19:00 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
  🟦 | [MAIN] | 06-06-24 17:19:00 | INFO | Trying to recommend items
  🟥 | [MAIN] | 06-06-24 17:19:00 | ERROR | Unexpected Error thrown: Incorrect arguments to mysqld_stmt_execute
+ 🟦 | [MAIN] | 06-06-24 18:07:18 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 18:07:18 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 18:07:18 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 18:07:18 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 18:07:18 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 18:07:18 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 18:07:18 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 18:07:18 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 18:07:18 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 18:07:18 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 18:08:10 | INFO | User ID: 28f0c0a1-4cdb-4227-bb36-6f7eaceb0593
+ 🟦 | [MAIN] | 06-06-24 18:08:10 | INFO | Trying to recommend items
+ 🟥 | [MAIN] | 06-06-24 18:08:10 | ERROR | Unexpected Error thrown: Incorrect arguments to mysqld_stmt_execute
+ 🟦 | [MAIN] | 06-06-24 18:12:20 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 18:12:20 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 18:12:20 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 18:12:20 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 18:12:20 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 18:12:20 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 18:12:20 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 18:12:20 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 18:12:20 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 18:12:20 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 18:12:24 | INFO | User ID: 28f0c0a1-4cdb-4227-bb36-6f7eaceb0593
+ 🟦 | [MAIN] | 06-06-24 18:12:24 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 18:12:24 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 18:12:24 | INFO | HTTP GET /recommend/28f0c0a1-4cdb-4227-bb36-6f7eaceb0593
+ 🟦 | [MAIN] | 06-06-24 18:12:24 | INFO | HTTP GET /favicon.ico
+ 🟦 | [MAIN] | 06-06-24 18:12:57 | INFO | User ID: 28f0c0a1-4cdb-4227-bb36-6f7eaceb0593
+ 🟦 | [MAIN] | 06-06-24 18:12:57 | INFO | Trying to recommend items
+ 🟦 | [MAIN] | 06-06-24 18:12:57 | INFO | Items recommended
+ 🟦 | [MAIN] | 06-06-24 18:12:57 | INFO | HTTP GET /recommend/28f0c0a1-4cdb-4227-bb36-6f7eaceb0593

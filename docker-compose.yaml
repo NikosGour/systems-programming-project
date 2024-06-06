@@ -55,7 +55,7 @@ services:
             retries: 3
 
     mysql_db:
-        image: mysql:5.7.43
+        image: mysql:latest
         ports:
             - "3306:3306"
         environment:

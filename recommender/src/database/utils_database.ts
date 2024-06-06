@@ -58,7 +58,10 @@ export const get_x_events = async(x:number): Promise<Event[]> => {
 
 export const get_event_by_sport = async(sport:string, limit:number): Promise<Event[]> => {
 	const connection = await get_connection();
-	const [ rows, _ ]: [any, any] = await connection.execute(`SELECT * FROM events WHERE sport = ? LIMIT ?`, [ sport, limit ]);
+	const [ rows, _ ]: [any, any] = await connection.execute(`SELECT * FROM events WHERE sport = ?`, [ sport ]);
 	connection.end();
+	if (rows.length > limit){
+		return rows.slice(0, limit) as Event[];
+	}
 	return rows as Event[];
 };

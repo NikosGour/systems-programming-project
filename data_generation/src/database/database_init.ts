@@ -4,6 +4,8 @@ import { users } from '../data/users.js';
 import { Bet, Coupon } from '../../../recommender/bin/models/coupon.js';
 import { UUID } from '../../../recommender/bin/functionality/uuid.js';
 import { getRandomInt } from '../../../recommender/bin/utils.js';
+import dotenv from 'dotenv';
+dotenv.config();
 
 const get_connection = async() => {
 	return await mysql2.createConnection({
@@ -173,7 +175,7 @@ async function insert_coupons(){
 }
 
 await create_tables();
-await insert_users();
-await insert_teams();
+// await insert_users();
+// await insert_teams();
 await insert_coupons();
 process.exit(0);
