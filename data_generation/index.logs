@@ -14102,3 +14102,330 @@
  🟦 | [MAIN] | 05-06-24 19:15:46 | INFO | Queue created
  🟦 | [MAIN] | 05-06-24 19:15:46 | INFO | Publishing message
  🟦 | [MAIN] | 05-06-24 19:15:46 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 09:44:23 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:44:23 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:44:23 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 09:44:23 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 09:44:23 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:44:23 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:44:23 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 09:44:23 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 09:44:27 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:44:27 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:44:27 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 09:44:27 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 09:44:33 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:44:33 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:44:33 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 09:44:33 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 09:47:36 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:47:36 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:47:36 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 09:47:36 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 09:47:36 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:47:36 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:47:36 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 09:47:36 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 09:47:42 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:47:42 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:47:42 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 09:47:42 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 09:47:43 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:47:43 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:47:43 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 09:47:43 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 09:47:46 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:47:46 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:47:46 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 09:47:46 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 09:47:49 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:47:49 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:47:49 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 09:47:49 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:33:42 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:33:42 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:33:42 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 10:33:42 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 10:33:42 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:33:42 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:33:42 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:33:42 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:33:51 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:33:51 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:33:51 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:33:51 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:33:58 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:33:58 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:33:58 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:33:58 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:34:02 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:34:02 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:34:02 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:34:02 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:34:05 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:34:05 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:34:05 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:34:05 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:34:12 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:34:12 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:34:12 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 10:34:12 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 10:34:12 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:34:12 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:34:12 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:34:12 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:34:49 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:34:49 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:34:49 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 10:34:49 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 10:34:49 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:34:49 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:34:49 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:34:49 | INFO | Message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:36:25 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:36:25 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:36:25 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 10:36:25 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 10:36:25 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:36:25 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:36:25 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:36:25 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T07:36:25.539Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T07:36:25.539Z",
+ "event_id": {
+  "_id": "f965c58b-2bb4-4020-9a5b-82601ff03fa2"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:36:26 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:36:26 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:36:26 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:36:26 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T07:36:26.628Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T07:36:26.628Z",
+ "event_id": {
+  "_id": "08518a11-fe8c-4aa7-af01-ae30b5196ad7"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:49:58 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:49:58 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:49:58 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 10:49:58 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 10:49:58 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:49:58 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:49:58 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:49:58 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T07:49:58.154Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T07:49:58.154Z",
+ "event_id": {
+  "_id": "d123e9dc-e9e7-4f78-a507-6461c1ce64b9"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:50:02 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:50:02 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:50:02 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:50:02 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T07:50:02.267Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T07:50:02.267Z",
+ "event_id": {
+  "_id": "27cfbc21-c01a-4743-83d5-f26dc811b431"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:50:21 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:50:21 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:50:21 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 10:50:21 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 10:50:21 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:50:21 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:50:21 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:50:21 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T07:50:21.858Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T07:50:21.858Z",
+ "event_id": {
+  "_id": "0768d5b9-b845-43e6-b191-d0ea1d8355f7"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:50:24 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:50:24 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:50:24 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:50:24 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T07:50:24.935Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T07:50:24.935Z",
+ "event_id": {
+  "_id": "9c0de93a-a7bc-4e5d-8d8f-63c15cc08367"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:50:30 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:50:30 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:50:30 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:50:30 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T07:50:30.941Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T07:50:30.941Z",
+ "event_id": {
+  "_id": "51b03345-8319-40a1-bd1b-3b03193642bc"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:50:40 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:50:40 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:50:40 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:50:40 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T07:50:40.949Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T07:50:40.949Z",
+ "event_id": {
+  "_id": "73ec5c4e-a0b9-422a-935e-5ef5b1a7071d"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:55:33 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:55:33 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:55:33 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 10:55:33 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 10:55:33 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:55:33 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:55:33 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:55:33 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T07:55:33.679Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T07:55:33.679Z",
+ "event_id": {
+  "_id": "82ba4047-f5da-4eed-aa22-32dbccea4919"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 10:55:36 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:55:36 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:55:36 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:55:36 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T07:55:36.794Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T07:55:36.794Z",
+ "event_id": {
+  "_id": "f6432e6e-b001-42fb-bcd7-240fba0b1eb5"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:55:48 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 10:55:48 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 10:55:49 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 10:55:49 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T07:55:47.929Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T07:55:47.929Z",
+ "event_id": {
+  "_id": "a6c61978-3bef-47d6-8309-dde77fcd7d43"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Basketball"
+}

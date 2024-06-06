@@ -1,0 +1,228 @@
+ 🟦 | [MAIN] | 06-06-24 09:42:08 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 06-06-24 09:42:08 | ERROR | Error consuming message
+ 🟥 | [MAIN] | 06-06-24 09:42:08 | ERROR | AMQPError: connect ECONNREFUSED 127.0.0.1:5672
+ 🟦 | [MAIN] | 06-06-24 09:42:59 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 06-06-24 09:42:59 | ERROR | Error consuming message
+ 🟥 | [MAIN] | 06-06-24 09:42:59 | ERROR | AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 06-06-24 09:43:17 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 06-06-24 09:43:17 | ERROR | Error consuming message
+ 🟥 | [MAIN] | 06-06-24 09:43:17 | ERROR | AMQPError: connection closed: ACCESS_REFUSED - Login was refused using authentication mechanism PLAIN. For details see the broker logfile. (403)
+ 🟦 | [MAIN] | 06-06-24 09:43:48 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:43:48 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:43:48 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 09:43:48 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 09:43:48 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:43:48 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:43:48 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 09:44:23 | INFO | Received message: nikos
+ 🟦 | [MAIN] | 06-06-24 09:44:27 | INFO | Received message: nikos
+ 🟦 | [MAIN] | 06-06-24 09:44:33 | INFO | Received message: nikos
+ 🟦 | [MAIN] | 06-06-24 09:47:32 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:47:32 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:47:32 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 09:47:32 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 09:47:32 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:47:32 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:47:32 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 09:51:26 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:51:27 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:51:27 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 09:51:27 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 09:51:27 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:51:27 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:51:27 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 09:52:40 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:52:40 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 09:52:40 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 09:52:40 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 09:52:40 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 09:52:40 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 09:52:40 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 10:18:24 | INFO | Message sent: undefined
+ 🟦 | [MAIN] | 06-06-24 10:19:04 | INFO | Received message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:19:04 | INFO | Received message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:19:04 | INFO | Received message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:19:04 | INFO | Received message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:19:04 | INFO | Received message: nikos
+ 🟦 | [MAIN] | 06-06-24 10:19:04 | INFO | Received message: Hello World!
+ 🟦 | [MAIN] | 06-06-24 10:33:42 | INFO | Received message: [object Object]
+ 🟦 | [MAIN] | 06-06-24 10:33:51 | INFO | Received message: [object Object]
+ 🟦 | [MAIN] | 06-06-24 10:33:58 | INFO | Received message: [object Object]
+ 🟦 | [MAIN] | 06-06-24 10:34:02 | INFO | Received message: [object Object]
+ 🟦 | [MAIN] | 06-06-24 10:34:05 | INFO | Received message: [object Object]
+ 🟦 | [MAIN] | 06-06-24 10:34:12 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 10:34:12 | INFO | {
+  fields: {
+    consumerTag: [32m'amq.ctag-uyaOUhSGAC7jTb8h9m_nxQ'[39m,
+    deliveryTag: [33m1[39m,
+    redelivered: [33mfalse[39m,
+    exchange: [32m''[39m,
+    routingKey: [32m'events'[39m
+  },
+  properties: {},
+  content: <Buffer 6e 69 6b 6f 73>
+}
+ 🟦 | [MAIN] | 06-06-24 10:34:49 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 10:34:49 | INFO | nikos
+ 🟦 | [MAIN] | 06-06-24 10:36:25 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 10:36:25 | INFO | {
+ "begin_timestamp": "2024-06-06T07:36:25.539Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-08T07:36:25.539Z",
+ "event_id": {
+  "_id": "f965c58b-2bb4-4020-9a5b-82601ff03fa2"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:36:26 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 10:36:26 | INFO | {
+ "begin_timestamp": "2024-06-06T07:36:26.628Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T07:36:26.628Z",
+ "event_id": {
+  "_id": "08518a11-fe8c-4aa7-af01-ae30b5196ad7"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟥 | [MAIN] | 06-06-24 10:37:01 | ERROR | Error consuming message
+ 🟥 | [MAIN] | 06-06-24 10:37:42 | ERROR | object
+ 🟦 | [MAIN] | 06-06-24 10:49:52 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:49:52 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:49:52 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 10:49:52 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 10:49:58 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 10:49:58 | INFO | {
+ "begin_timestamp": "2024-06-06T07:49:58.154Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T07:49:58.154Z",
+ "event_id": {
+  "_id": "d123e9dc-e9e7-4f78-a507-6461c1ce64b9"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:50:02 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 10:50:02 | INFO | {
+ "begin_timestamp": "2024-06-06T07:50:02.267Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T07:50:02.267Z",
+ "event_id": {
+  "_id": "27cfbc21-c01a-4743-83d5-f26dc811b431"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:50:19 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:50:19 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 10:50:19 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 10:50:19 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 10:50:21 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 10:50:21 | INFO | {
+ "begin_timestamp": "2024-06-06T07:50:21.858Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T07:50:21.858Z",
+ "event_id": {
+  "_id": "0768d5b9-b845-43e6-b191-d0ea1d8355f7"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:50:24 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 10:50:24 | INFO | {
+ "begin_timestamp": "2024-06-06T07:50:24.935Z",
+ "country": "US",
+ "end_timestamp": "2024-06-08T07:50:24.935Z",
+ "event_id": {
+  "_id": "9c0de93a-a7bc-4e5d-8d8f-63c15cc08367"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team G"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:50:30 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 10:50:30 | INFO | {
+ "begin_timestamp": "2024-06-06T07:50:30.941Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T07:50:30.941Z",
+ "event_id": {
+  "_id": "51b03345-8319-40a1-bd1b-3b03193642bc"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 10:50:40 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 10:50:40 | INFO | {
+ "begin_timestamp": "2024-06-06T07:50:40.949Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-08T07:50:40.949Z",
+ "event_id": {
+  "_id": "73ec5c4e-a0b9-422a-935e-5ef5b1a7071d"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Handball"
+}

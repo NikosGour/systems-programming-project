@@ -25,6 +25,18 @@ services:
                 condition: service_healthy
             api:
                 condition: service_started
+
+    data_storage:
+        build:
+            context: ./data_storage
+            dockerfile: Dockerfile
+        environment:
+            - RABBITMQ_URI=messaging
+        restart: on-failure
+        depends_on:
+            messaging:
+                condition: service_healthy
+
     messaging:
         image: rabbitmq:3.13-management
         ports:

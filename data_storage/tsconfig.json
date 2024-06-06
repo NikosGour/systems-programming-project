@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "rootDir": "src",
+    "outDir": "bin",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "disableSizeLimit": true,
+    "exactOptionalPropertyTypes": true,
+    "noEmitOnError": true,
+    "moduleResolution": "Bundler",
+    "sourceMap": true,
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
