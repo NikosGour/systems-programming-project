@@ -23675,3 +23675,53 @@
  ],
  "sport": "Basketball"
 }
+ 🟦 | [MAIN] | 06-06-24 21:39:47 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 21:39:47 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 21:39:47 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 21:39:47 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 21:39:47 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 21:39:47 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 21:39:47 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 21:39:47 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T18:39:47.477Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T18:39:47.477Z",
+ "event_id": {
+  "_id": "4a4a5437-78f2-4c09-bc43-49fa0d7b42d1"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 21:41:13 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 21:41:13 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 21:41:13 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 21:41:13 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 21:41:13 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 21:41:13 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 21:41:13 | INFO | Publishing message
+ 🟦 | [MAIN] | 06-06-24 21:41:13 | INFO | Message: {
+ "begin_timestamp": "2024-06-06T18:41:13.316Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T18:41:13.316Z",
+ "event_id": {
+  "_id": "e49c5293-434b-49c8-a8db-3d9e08fc009c"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team E"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Basketball"
+}

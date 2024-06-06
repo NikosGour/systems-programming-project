@@ -50,7 +50,7 @@ export class MySQLDatabase{
 	}
 
 	public async insert_event(event: Event): Promise<mysql2.QueryResult | undefined>{
-		const values = [ (event.event_id as any)._id, event.participants[ 0 ]!.name, event.participants[ 1 ]!.name, event.country, event.league, event.sport, convert_utc_to_mysql(event.begin_timestamp.toString()), convert_utc_to_mysql(event.end_timestamp.toString()) ];
+		const values = [ event.event_id.id, event.participants[ 0 ]!.name, event.participants[ 1 ]!.name, event.country, event.league, event.sport, convert_utc_to_mysql(event.begin_timestamp), convert_utc_to_mysql(event.end_timestamp) ];
 		return await this.query(`INSERT INTO events (uuid, team1, team2, country, league, sport, start_date, end_date) VALUES (?, ?, ?, ?, ?, ?, ?, ?);`, values);
 
 	}
@@ -64,8 +64,7 @@ export class MySQLDatabase{
 	}
 }
 
-const convert_utc_to_mysql = (date: string): string => {
-	const _date = new Date(date);
-	return _date.toISOString().slice(0, 19)
+const convert_utc_to_mysql = (date: Date): string => {
+	return date.toISOString().slice(0, 19)
 		.replace(`T`, ` `);
 };

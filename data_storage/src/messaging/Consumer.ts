@@ -2,6 +2,7 @@ import { MySQLDatabase } from "../database/mysqldatabase.js";
 import getLogger from "../logger.js";
 import amqplib, { ConfirmChannel, Connection } from "amqplib";
 import { Event, isEvent } from "../../../recommender/bin/models/event.js";
+import { UUID } from "../../../recommender/bin/functionality/uuid.js";
 
 
 const logger = getLogger(`index.logs`);
@@ -37,6 +38,9 @@ export class Consumer{
 					logger.info(msg.content.toString());
 					const msg_json = JSON.parse(msg.content.toString());
 					if (isEvent(msg_json)){
+						Object.setPrototypeOf(msg_json.event_id, UUID.prototype);
+						Object.setPrototypeOf(msg_json.begin_timestamp, Date.prototype);
+						Object.setPrototypeOf(msg_json.end_timestamp, Date.prototype);
 						await this.database.insert_event(msg_json);
 					}
 					else {

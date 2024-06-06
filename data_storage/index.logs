@@ -8786,3 +8786,31 @@
  ],
  "sport": "Football"
 }
+ 🟦 | [MAIN] | 06-06-24 21:39:35 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 21:39:35 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 21:39:35 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 21:39:35 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 21:39:47 | INFO | Received message:
+ 🟦 | [MAIN] | 06-06-24 21:39:47 | INFO | {
+ "begin_timestamp": "2024-06-06T18:39:47.477Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T18:39:47.477Z",
+ "event_id": {
+  "_id": "4a4a5437-78f2-4c09-bc43-49fa0d7b42d1"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team F"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 06-06-24 21:41:09 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 21:41:10 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 21:41:10 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 21:41:10 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 21:41:13 | INFO | Received message:
