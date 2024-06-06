@@ -3,6 +3,8 @@ import { Consumer } from "./messaging/Consumer.js";
 import dotenv from "dotenv";
 import { credentials } from "amqplib";
 import amqlib from 'amqplib/callback_api.js';
+import { MySQLDatabase } from "./database/create_table.js";
+import mysql2 from 'mysql2';
 dotenv.config();
 const logger = getLogger();
 
@@ -19,6 +21,20 @@ const CREDENTIALS:amqlib.Options.Connect = {
 	password : RMQ_PASS,
 };
 
-logger.info(`Starting Consumer`);
-const cons:Consumer = new Consumer(CREDENTIALS, `events`);
-await cons.consume();
+// logger.info(`Starting Consumer`);
+// const cons:Consumer = new Consumer(CREDENTIALS, `events`);
+// await cons.consume();
+const MYSQL_URI = process.env[ `MYSQL_URI` ] || `localhost`;
+const MYSQL_USER = process.env[ `MYSQL_USER` ] || `root`;
+const MYSQL_ROOT_PASSWORD = process.env[ `MYSQL_ROOT_PASSWORD` ] || `root`;
+const MYSQL_DATABASE = process.env[ `MYSQL_DATABASE` ] || `test`;
+
+const MYSQL_CREDENTIALS: mysql2.ConnectionOptions = {
+	host     : MYSQL_URI,
+	user     : MYSQL_USER,
+	password : MYSQL_ROOT_PASSWORD,
+	database : MYSQL_DATABASE,
+};
+const mysql_db = new MySQLDatabase(MYSQL_CREDENTIALS);
+mysql_db.get_databases();
+mysql_db.get_tables();

@@ -32,9 +32,12 @@ services:
             dockerfile: Dockerfile
         environment:
             - RABBITMQ_URI=messaging
+            - MYSQL_URI=mysql_db
         restart: on-failure
         depends_on:
             messaging:
+                condition: service_healthy
+            mysql_db:
                 condition: service_healthy
 
     messaging:
@@ -43,11 +46,28 @@ services:
             - "15672:15672"
             - "5672:5672"
         environment:
-            RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER}
-            RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS}
+            - RABBITMQ_DEFAULT_USER=${RABBITMQ_DEFAULT_USER}
+            - RABBITMQ_DEFAULT_PASS=${RABBITMQ_DEFAULT_PASS}
         healthcheck:
             test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
             interval: 20s
             timeout: 20s
             retries: 3
 
+    mysql_db:
+        image: mysql:latest
+        ports:
+          - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+            MYSQL_DATABASE: ${MYSQL_DATABASE}
+        healthcheck:
+            test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+            timeout: 20s
+            interval: 20s
+            retries: 5
+        volumes:
+            - database_data:/var/lib/mysql
+        
+volumes:
+    database_data:
