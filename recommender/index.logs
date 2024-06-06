@@ -5715,3 +5715,504 @@
  🟥 | [MAIN] | 04-06-24 11:21:24 | ERROR | Error consuming message: AMQPError: connect ECONNREFUSED 127.0.0.1:5672
  🟦 | [MAIN] | 04-06-24 11:21:24 | INFO | Starting Consumer
  🟦 | [MAIN] | 04-06-24 11:21:24 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Received message: {
+ "begin_timestamp": "2024-06-06T11:26:32.229Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T11:26:32.229Z",
+ "event_id": {
+  "_id": "1cf49dc2-180c-486e-88e4-bd2576c20b5e"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Received message: {
+ "begin_timestamp": "2024-06-06T11:26:33.295Z",
+ "country": "GER",
+ "end_timestamp": "2024-06-08T11:26:33.295Z",
+ "event_id": {
+  "_id": "aff36e7c-6ab2-40e5-a559-a6ea4ffdef6e"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team A"
+  },
+  {
+   "name": "Team G"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 06-06-24 14:32:21 | INFO | Received message: {
+ "begin_timestamp": "2024-06-06T11:26:34.298Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-08T11:26:34.298Z",
+ "event_id": {
+  "_id": "30f9315f-6556-4c8a-87fd-e23c6b06a2ed"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team D"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 06-06-24 14:40:58 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 14:40:58 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 14:40:58 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 14:40:58 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 14:40:58 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 14:40:58 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 14:40:58 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 14:40:58 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 14:40:58 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 14:40:58 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:52:22 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:52:22 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:52:22 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:52:22 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:52:22 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:52:23 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:52:23 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:52:23 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:52:23 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:52:23 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:52:58 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:52:58 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:52:58 | INFO | HTTP GET /favicon.ico
+ 🟦 | [MAIN] | 06-06-24 16:53:26 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:53:26 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:53:26 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:53:26 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:53:26 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:53:26 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:53:26 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:53:26 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:53:26 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:53:26 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:53:30 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:53:30 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:53:30 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:53:30 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:53:30 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:53:30 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:53:30 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:53:30 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:53:30 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:53:30 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:53:34 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:53:34 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:54:17 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:54:17 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:54:17 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:54:17 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:54:17 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:54:17 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:54:17 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:54:17 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:54:17 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:54:17 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:54:25 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:54:25 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:55:00 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:55:00 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:55:00 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:55:00 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:55:00 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:55:00 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:55:00 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:55:00 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:55:00 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:55:00 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:55:08 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:55:08 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:55:08 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:55:08 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:55:08 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:55:08 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:55:08 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:55:08 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:55:08 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:55:08 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:55:09 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:55:09 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:55:31 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:55:31 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:55:31 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:55:31 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:55:31 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:55:31 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:55:31 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:55:31 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:55:31 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:55:31 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:55:33 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:55:33 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:56:16 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:56:16 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:56:16 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:56:16 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:56:16 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:56:16 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:56:16 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:56:16 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:56:16 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:56:16 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:56:17 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:56:17 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:56:26 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:56:26 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:56:26 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:56:27 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:56:27 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:56:27 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:56:27 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:56:27 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:56:27 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:56:27 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:56:29 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:56:29 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:56:36 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:56:36 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:56:36 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:56:36 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:56:36 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:56:36 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:56:36 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:56:36 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:56:36 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:56:36 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:56:40 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:56:40 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:56:50 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:56:50 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:56:50 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:56:50 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:56:50 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:56:50 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:56:50 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:56:50 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:56:50 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:56:50 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:56:51 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:56:51 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:57:49 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:57:49 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:57:49 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:57:49 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:57:49 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:57:49 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:57:49 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:57:49 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:57:49 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:57:49 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:57:52 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:57:52 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:59:02 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:59:02 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:59:02 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:59:02 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:59:02 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:59:02 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:59:02 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:59:02 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:59:02 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:59:02 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 16:59:03 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:59:03 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 16:59:18 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:59:18 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 16:59:18 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 16:59:18 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 16:59:18 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 16:59:18 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 16:59:18 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 16:59:18 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 16:59:18 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 16:59:18 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:01:15 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:01:15 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:01:15 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:01:16 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:01:16 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:01:16 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:01:16 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:01:16 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:01:16 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:01:16 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:01:20 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:01:20 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:01:21 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:01:21 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:02:00 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:02:00 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:02:00 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:02:00 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:02:00 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:02:00 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:02:00 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:02:00 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:02:00 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:02:00 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:02:10 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:02:10 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:02:10 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:02:10 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:02:10 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:02:10 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:02:10 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:02:10 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:02:10 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:02:10 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:02:34 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:02:34 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:02:34 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:02:34 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:02:34 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:02:34 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:02:34 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:02:34 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:02:34 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:02:34 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:02:44 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:02:44 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:02:44 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:02:44 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:02:44 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:02:44 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:02:44 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:02:44 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:02:44 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:02:44 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:03:03 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:03:03 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:03:03 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:03:03 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:03:03 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:03:03 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:03:03 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:03:03 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:03:03 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:03:03 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:03:08 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:03:08 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:03:24 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:03:24 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:03:24 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:03:24 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:03:24 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:03:24 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:03:24 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:03:24 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:03:24 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:03:24 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:04:19 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:04:19 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:04:19 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:04:19 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:04:19 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:04:19 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:04:19 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:04:19 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:04:19 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:04:19 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:05:23 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:05:23 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:05:23 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:05:23 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:05:23 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:05:23 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:05:23 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:05:23 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:05:23 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:05:23 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:12:59 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:12:59 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:12:59 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:12:59 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:12:59 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:12:59 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:12:59 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:12:59 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:12:59 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:12:59 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:13:04 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:13:04 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:13:04 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:13:04 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:13:04 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:13:04 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:13:04 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:13:04 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:13:04 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:13:04 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:13:08 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:13:08 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:13:08 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:13:08 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:13:08 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:13:08 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:13:08 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:13:08 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:13:08 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:13:08 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:14:22 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:14:22 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:14:22 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:14:22 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:14:22 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:14:22 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:14:22 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:14:22 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:14:22 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:14:22 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:15:02 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:15:02 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:15:02 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:15:02 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:15:02 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:15:02 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:15:02 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:15:02 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:15:02 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:15:02 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:15:22 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:15:22 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:15:22 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:15:22 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:15:22 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:15:22 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:15:22 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:15:22 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:15:22 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:15:22 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:15:46 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:15:46 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:15:46 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:15:46 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:15:46 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:15:46 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:15:46 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:15:46 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:15:46 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:15:46 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:15:57 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:15:57 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:15:57 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:15:57 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:15:57 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:15:57 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:15:57 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:15:57 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:15:57 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:15:57 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:16:10 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:16:10 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:16:10 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:16:10 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:16:10 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:16:10 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:16:10 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:16:10 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:16:10 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:16:10 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:16:25 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:16:25 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:16:25 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:16:25 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:16:25 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:16:25 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:16:25 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:16:25 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:16:25 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:16:25 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:16:42 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟥 | [MAIN] | 06-06-24 17:16:42 | ERROR | Unexpected Error thrown: Incorrect arguments to mysqld_stmt_execute
+ 🟦 | [MAIN] | 06-06-24 17:16:42 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:17:33 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:17:33 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:17:33 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:17:33 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:17:33 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:17:33 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:17:33 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:17:33 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:17:33 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:17:33 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:17:43 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:17:43 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:17:43 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:17:43 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:17:43 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:17:43 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:17:43 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:17:43 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:17:43 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:17:43 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:17:44 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:17:44 | INFO | Trying to recommend items
+ 🟥 | [MAIN] | 06-06-24 17:17:44 | ERROR | Unexpected Error thrown: Incorrect arguments to mysqld_stmt_execute
+ 🟦 | [MAIN] | 06-06-24 17:17:44 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:18:14 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:18:14 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:18:14 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:18:14 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:18:14 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:18:14 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:18:14 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:18:14 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:18:14 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:18:14 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:18:20 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:18:20 | INFO | Trying to recommend items
+ 🟥 | [MAIN] | 06-06-24 17:18:20 | ERROR | Unexpected Error thrown: Incorrect arguments to mysqld_stmt_execute
+ 🟦 | [MAIN] | 06-06-24 17:18:20 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:18:38 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:18:38 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:18:38 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:18:39 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:18:39 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:18:39 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:18:39 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:18:39 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:18:39 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:18:39 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:18:40 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:18:40 | INFO | Trying to recommend items
+ 🟥 | [MAIN] | 06-06-24 17:18:41 | ERROR | Unexpected Error thrown: Incorrect arguments to mysqld_stmt_execute
+ 🟦 | [MAIN] | 06-06-24 17:18:41 | INFO | HTTP GET /recommend/28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:18:57 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:18:57 | INFO | RabbitMQ URI: localhost
+ 🟦 | [MAIN] | 06-06-24 17:18:57 | INFO | Starting Consumer
+ 🟦 | [MAIN] | 06-06-24 17:18:57 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 06-06-24 17:18:57 | INFO | Creating channel
+ 🟦 | [MAIN] | 06-06-24 17:18:57 | INFO | Channel created
+ 🟦 | [MAIN] | 06-06-24 17:18:57 | INFO | Creating queue
+ 🟦 | [MAIN] | 06-06-24 17:18:57 | INFO | Queue created
+ 🟦 | [MAIN] | 06-06-24 17:18:57 | INFO | Consuming messages
+ 🟦 | [MAIN] | 06-06-24 17:18:57 | INFO | Server is running on http://localhost:6969
+ 🟦 | [MAIN] | 06-06-24 17:19:00 | INFO | User ID: 28d8b1ac-b29d-48cf-be09-9d7702e9e562
+ 🟦 | [MAIN] | 06-06-24 17:19:00 | INFO | Trying to recommend items
+ 🟥 | [MAIN] | 06-06-24 17:19:00 | ERROR | Unexpected Error thrown: Incorrect arguments to mysqld_stmt_execute

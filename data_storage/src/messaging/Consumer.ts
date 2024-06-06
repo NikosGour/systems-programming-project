@@ -1,5 +1,7 @@
+import { MySQLDatabase } from "../database/mysqldatabase.js";
 import getLogger from "../logger.js";
 import amqplib, { ConfirmChannel, Connection } from "amqplib";
+import { Event, isEvent } from "../../../recommender/bin/models/event.js";
 
 
 const logger = getLogger(`index.logs`);
@@ -13,9 +15,12 @@ export class Consumer{
 
 	private channel: ConfirmChannel | null = null;
 
-	constructor(connection_options: amqplib.Options.Connect, queue: string){
+	private database: MySQLDatabase;
+
+	constructor(connection_options: amqplib.Options.Connect, queue: string, database: MySQLDatabase){
 		this.connection_options = connection_options;
 		this.queue = queue;
+		this.database = database;
 	}
 
 	async consume(){
@@ -26,10 +31,18 @@ export class Consumer{
 
 			this.channel?.prefetch(1);
 
-			this.channel?.consume(this.queue, (msg: any) => {
+			this.channel?.consume(this.queue, async(msg: any) => {
 				if (msg !== null){
 					logger.info(`Received message:`);
 					logger.info(msg.content.toString());
+					const msg_json = JSON.parse(msg.content.toString());
+					if (isEvent(msg_json)){
+						await this.database.insert_event(msg_json);
+					}
+					else {
+						logger.error(`Received message is not an event`);
+						logger.error(msg_json);
+					}
 					this.channel?.ack(msg);
 				}
 			}, { noAck: false });

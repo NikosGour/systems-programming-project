@@ -10,12 +10,12 @@ export abstract class Recommender{
 		Recommender.recommendation_engine = recommendation_engine;
 	}
 
-	public static recommend(user:UUID):Event[]{
+	public static async recommend(user:UUID):Promise<Event[]>{
 		if (Recommender.recommendation_engine == null){
 			throw new RecommenderError(`You need to set a recommendation engine before trying to recommend items`);
 		}
 
-		return Recommender.recommendation_engine.recommend(user);
+		return await Recommender.recommendation_engine.recommend(user);
 	}
 }
 
@@ -25,7 +25,7 @@ export class RecommenderError extends Error{
 	}
 }
 export interface RecommendationEngine{
-	recommend(user:UUID): Event[]
+	recommend(user:UUID): Promise<Event[]>
 }
 
 export class DummyRecommendationEngine implements RecommendationEngine{
@@ -45,9 +45,9 @@ export class DummyRecommendationEngine implements RecommendationEngine{
 		this.events = [ { ... event }, { ... event }, { ... event }, { ... event }, { ... event }, { ... event }, { ... event } ];
 	}
 
-	public recommend(_user: UUID): Event[]{
+	public async recommend(_user: UUID): Promise<Event[]>{
 
-		return this.events;
+		return await this.events;
 	}
 
 }

@@ -5,12 +5,13 @@ import express_winston from "express-winston";
 import { UUID, UUIDError } from "./functionality/uuid.js";
 import { DummyRecommendationEngine, Recommender, RecommenderError } from "./functionality/recommender.js";
 import getLogger from "./logger.js";
-import { Event } from "./models/event.js";
+import { Event, isEvent } from "./models/event.js";
 import { Producer } from "./messaging/Producer.js";
 import { AMQPClient } from "@cloudamqp/amqp-client";
 import { exit } from "process";
 import { cli } from "winston/lib/winston/config/index.js";
 import { Consumer } from "./messaging/Consumer.js";
+import { SportRecommenderEngine } from "./functionality/sport_recommender.js";
 
 dotenv.config();
 const logger = getLogger(`index.logs`);
@@ -29,7 +30,7 @@ client.password = process.env[ `RABBITMQ_DEFAULT_PASS` ] || `guest`;
 
 
 
-app.get(`/recommend/:user_id`, (req, res) => {
+app.get(`/recommend/:user_id`, async(req, res) => {
 	const user_id = req.params.user_id;
 
 	let user_uuid:UUID;
@@ -55,7 +56,9 @@ app.get(`/recommend/:user_id`, (req, res) => {
 
 	let recommended_items: Event[];
 	try {
-		recommended_items = Recommender.recommend(user_uuid);
+		logger.info(`Trying to recommend items`);
+		recommended_items = await Recommender.recommend(user_uuid);
+		logger.info(`Items recommended`);
 	}
 	catch (e){
 		if (e instanceof RecommenderError){
@@ -65,6 +68,7 @@ app.get(`/recommend/:user_id`, (req, res) => {
 		else if (e instanceof Error){
 			logger.error(`Unexpected Error thrown: ${e.message}`);
 			res.status(500).send(`There was an Error in the server`);
+			throw e;
 		}
 		else {
 			logger.error(`Unexpected '${typeof e}' was thrown: ${e}`);
@@ -85,7 +89,7 @@ app.listen(port, async() => {
 	const cons:Consumer = new Consumer(client, `events`);
 	await cons.consume();
 	logger.info(`Server is running on http://localhost:${port}`);
-	Recommender.set_recommender_method(new DummyRecommendationEngine());
+	Recommender.set_recommender_method(new SportRecommenderEngine());
 });
 
 export * from "./functionality/uuid.js";

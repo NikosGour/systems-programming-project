@@ -8,7 +8,7 @@ export interface Coupon{
 	user_id    : UUID
 }
 
-interface Bet{
+export interface Bet{
 	event_id : UUID,
 	odds     : number
 }

@@ -55,9 +55,9 @@ services:
             retries: 3
 
     mysql_db:
-        image: mysql:latest
+        image: mysql:8.0
         ports:
-          - "3306:3306"
+            - "3306:3306"
         environment:
             MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
             MYSQL_DATABASE: ${MYSQL_DATABASE}
@@ -68,6 +68,7 @@ services:
             retries: 5
         volumes:
             - database_data:/var/lib/mysql
-        
+
 volumes:
     database_data:
+
