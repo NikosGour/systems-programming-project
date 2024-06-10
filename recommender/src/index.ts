@@ -2,10 +2,10 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import express_winston from "express-winston";
-import { UUID, UUIDError } from "./functionality/uuid.js";
+import { UUID, UUIDError } from "../../systems_programming_lib/bin/functionality/uuid.js";
 import { DummyRecommendationEngine, Recommender, RecommenderError } from "./functionality/recommender.js";
-import getLogger from "./logger.js";
-import { Event, isEvent } from "./models/event.js";
+import getLogger from "../../systems_programming_lib/bin/logger.js";
+import { Event, isEvent } from "../../systems_programming_lib/bin/models/event.js";
 import mysql2 from "mysql2/promise";
 import { SportRecommenderEngine } from "./functionality/sport_recommender.js";
 import { MySQLDatabaseClient } from "./database/utils_database.js";
@@ -90,5 +90,3 @@ app.listen(port, async() => {
 	logger.info(`Server is running on http://localhost:${port}`);
 	Recommender.set_recommender_method(new SportRecommenderEngine(mysql_db));
 });
-
-export * from "./functionality/uuid.js";

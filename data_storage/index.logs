@@ -8814,3 +8814,75 @@
  🟦 | [MAIN] | 06-06-24 21:41:10 | INFO | Creating channel
  🟦 | [MAIN] | 06-06-24 21:41:10 | INFO | Channel created
  🟦 | [MAIN] | 06-06-24 21:41:13 | INFO | Received message:
+ 🟦 | [MAIN] | 10-06-24 14:14:33 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 14:14:33 | ERROR | Error consuming message
+ 🟥 | [MAIN] | 10-06-24 14:14:33 | ERROR | Error: connect ECONNREFUSED 127.0.0.1:5672
+ 🟦 | [MAIN] | 10-06-24 14:15:47 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 14:15:47 | ERROR | Error consuming message
+ 🟥 | [MAIN] | 10-06-24 14:15:47 | ERROR | Error: Socket closed abruptly during opening handshake
+ 🟦 | [MAIN] | 10-06-24 14:16:23 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 14:16:23 | ERROR | Error consuming message
+ 🟥 | [MAIN] | 10-06-24 14:16:23 | ERROR | Error: connect ECONNREFUSED 127.0.0.1:5672
+ 🟦 | [MAIN] | 10-06-24 14:18:03 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:18:03 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:18:03 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:18:03 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:20:14 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:20:14 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:20:14 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:20:14 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:20:19 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:20:19 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:20:19 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:20:19 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:21:32 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:21:32 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:21:32 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:21:32 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:22:00 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:22:01 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:22:01 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:22:01 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:22:02 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:22:03 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:22:03 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:22:03 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:22:08 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:22:08 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:22:08 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:22:08 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:22:40 | INFO | Received message:
+ 🟦 | [MAIN] | 10-06-24 14:22:40 | INFO | {
+ "begin_timestamp": "2024-06-10T11:22:40.872Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-12T11:22:40.872Z",
+ "event_id": {
+  "_id": "32dc8a20-abe5-454f-9d63-d86027f95b0b"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 10-06-24 14:23:53 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:23:54 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:23:54 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:23:54 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:28:55 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:28:55 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:28:55 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:28:55 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:32:58 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:32:58 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:32:58 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:32:58 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:33:46 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:33:46 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:33:46 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:33:46 | INFO | Channel created

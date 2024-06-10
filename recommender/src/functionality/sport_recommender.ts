@@ -1,12 +1,12 @@
 import { Bet } from "../database/bet.js";
 import { Coupon } from "../database/coupon.js";
-import { Event } from "../models/event.js";
+import { Event } from "../../../systems_programming_lib/bin/models/event.js";
 import * as database_e from "../database/event.js";
 import { RecommendationEngine } from "./recommender.js";
-import { UUID } from "./uuid.js";
-import getLogger from "../logger.js";
-import { Team } from "../models/team.js";
-import { convert_to_country, convert_to_league, convert_to_sport, countries, leagues } from "../data/lists.js";
+import { UUID } from "../../../systems_programming_lib/bin/functionality/uuid.js";
+import getLogger from "../../../systems_programming_lib/bin/logger.js";
+import { Team } from "../../../systems_programming_lib/bin/models/team.js";
+import { convert_to_country, convert_to_league, convert_to_sport, countries, leagues } from "../../../systems_programming_lib/bin/data/lists.js";
 import { MySQLDatabaseClient } from '../database/utils_database.js';
 
 const logger = getLogger();

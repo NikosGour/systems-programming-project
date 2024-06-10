@@ -57,7 +57,21 @@ export const isEvent = (obj: any): obj is Event => {
 		console.log(`isEvent Error: ${e}`);
 		throw e;
 	}
+};
 
-
-
+export const transformEvent = (obj: any): Event => {
+	if (!isEvent(obj)){
+		throw new Error(`Object is not an event`);
+	}
+	const _obj: any = obj;
+	const event: Event = {
+		begin_timestamp : new Date(_obj.begin_timestamp),
+		country         : _obj.country,
+		end_timestamp   : new Date(_obj.end_timestamp),
+		event_id        : new UUID(_obj.event_id._id),
+		league          : _obj.league,
+		participants    : _obj.participants,
+		sport           : _obj.sport,
+	};
+	return event;
 };

@@ -24,13 +24,13 @@
     "noEmitOnError": true,
     "moduleResolution": "Bundler",
     "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-    "composite": true,
-    "noEmit": false
   },
   "include": [
     "src/**/*.ts"
   ],
-  "references": []
+  "references": [
+    {
+      "path": "../systems_programming_lib"
+    }
+  ]
 }

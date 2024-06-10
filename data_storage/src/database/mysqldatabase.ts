@@ -1,6 +1,6 @@
 import getLogger from '../logger.js';
 import mysql2 from "mysql2/promise";
-import { Event } from "../../../recommender/bin/models/event.js";
+import { Event } from "../../../systems_programming_lib/bin/models/event.js";
 const logger = getLogger();
 export class MySQLDatabase{
 
@@ -50,7 +50,14 @@ export class MySQLDatabase{
 	}
 
 	public async insert_event(event: Event): Promise<mysql2.QueryResult | undefined>{
-		const values = [ event.event_id.id, event.participants[ 0 ]!.name, event.participants[ 1 ]!.name, event.country, event.league, event.sport, convert_utc_to_mysql(event.begin_timestamp), convert_utc_to_mysql(event.end_timestamp) ];
+		const values = [ event.event_id.id,
+			event.participants[ 0 ]!.name,
+			event.participants[ 1 ]!.name,
+			event.country,
+			event.league,
+			event.sport,
+			convert_utc_to_mysql(event.begin_timestamp),
+			convert_utc_to_mysql(event.end_timestamp) ];
 		return await this.query(`INSERT INTO events (uuid, team1, team2, country, league, sport, start_date, end_date) VALUES (?, ?, ?, ?, ?, ?, ?, ?);`, values);
 
 	}

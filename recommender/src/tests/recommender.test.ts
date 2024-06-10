@@ -1,8 +1,8 @@
 import { Recommender, DummyRecommendationEngine } from "../functionality/recommender.js";
-import { UUID } from "../functionality/uuid.js";
+import { UUID } from "../../../systems_programming_lib/bin/functionality/uuid.js";
 import { jest } from '@jest/globals';
-import { Event } from "../models/event.js";
-import { Team } from "../models/team.js";
+import { Event } from "../../../systems_programming_lib/bin/models/event.js";
+import { Team } from "../../../systems_programming_lib/bin/models/team.js";
 jest.useFakeTimers();
 describe(`Testing Recommend.recommend()`, () => {
 

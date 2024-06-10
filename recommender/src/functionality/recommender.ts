@@ -1,6 +1,6 @@
-import { UUID } from "./uuid.js";
-import { Event } from "../models/event.js";
-import { Team } from "../models/team.js";
+import { UUID } from "../../../systems_programming_lib/bin/functionality/uuid.js";
+import { Event } from "../../../systems_programming_lib/bin/models/event.js";
+import { Team } from "../../../systems_programming_lib/bin/models/team.js";
 
 export abstract class Recommender{
 	private static recommendation_engine: RecommendationEngine;

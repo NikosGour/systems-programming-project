@@ -5,11 +5,11 @@ FROM node:slim AS builder
 
 WORKDIR /app
 
-RUN mkdir -p recommender/bin
+RUN mkdir -p systems_programming_lib/bin
 
-COPY ["./recommender/bin", "./recommender/bin"]
+COPY ["./systems_programming_lib/bin", "./systems_programming_lib/bin"]
 
-COPY ["./recommender/tsconfig.json", "./recommender/tsconfig.json"]
+COPY ["./systems_programming_lib/tsconfig.json", "./systems_programming_lib/tsconfig.json"]
 
 RUN mkdir data_generation
 
@@ -29,15 +29,15 @@ FROM node:slim
 
 WORKDIR /app
 
-RUN mkdir -p recommender/bin
+RUN mkdir -p systems_programming_lib/bin
 
-COPY ["./recommender/bin", "./recommender/bin"]
+COPY ["./systems_programming_lib/bin", "./systems_programming_lib/bin"]
 
-COPY ["./recommender/tsconfig.json", "./recommender/tsconfig.json"]
+COPY ["./systems_programming_lib/tsconfig.json", "./systems_programming_lib/tsconfig.json"]
 
-COPY ["./recommender/package.json", "./recommender/package.json"]
+COPY ["./systems_programming_lib/package.json", "./systems_programming_lib/package.json"]
 
-WORKDIR /app/recommender
+WORKDIR /app/systems_programming_lib
 
 RUN npm i
 

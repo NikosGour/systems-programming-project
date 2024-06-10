@@ -1,4 +1,4 @@
-import getLogger from "../../../recommender/bin/logger.js";
+import getLogger from "../../../systems_programming_lib/bin/logger.js";
 import amqplib, { ConfirmChannel, Connection } from 'amqplib';
 
 const logger = getLogger(`index.logs`);

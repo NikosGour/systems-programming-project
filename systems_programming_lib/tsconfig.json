@@ -4,10 +4,9 @@
     "module": "ESNext",
     "rootDir": "src",
     "outDir": "bin",
-    "baseUrl": ".",
     "lib": [
       "ESNext",
-      "DOM",
+      "DOM"
     ],
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -27,13 +26,10 @@
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
+    "composite": true,
   },
   "include": [
     "src/**/*.ts"
   ],
-  "references": [
-    {
-      "path": "../systems_programming_lib",
-    }
-  ]
+  "references": []
 }

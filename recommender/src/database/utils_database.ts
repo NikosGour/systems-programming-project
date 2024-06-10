@@ -1,5 +1,5 @@
 import mysql2 from 'mysql2/promise';
-import { UUID } from '../functionality/uuid.js';
+import { UUID } from '../../../systems_programming_lib/bin/functionality/uuid.js';
 import { Coupon } from './coupon.js';
 import { Bet } from './bet.js';
 import { User } from './user.js';

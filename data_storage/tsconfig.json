@@ -30,7 +30,7 @@
   ],
   "references": [
     {
-      "path": "../recommender"
+      "path": "../systems_programming_lib"
     }
   ]
 }

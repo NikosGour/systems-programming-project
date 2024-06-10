@@ -2,8 +2,8 @@ services:
     api:
         image: systems_programming:latest
         build:
-            context: ./recommender
-            dockerfile: Dockerfile
+            context: .
+            dockerfile: ./recommender/Dockerfile
         ports:
             - "${PORT}:${PORT}"
         environment:
@@ -49,6 +49,7 @@ services:
         environment:
             - RABBITMQ_DEFAULT_USER=${RABBITMQ_DEFAULT_USER}
             - RABBITMQ_DEFAULT_PASS=${RABBITMQ_DEFAULT_PASS}
+        restart: on-failure
         healthcheck:
             test: ["CMD", "rabbitmq-diagnostics", "-q", "ping"]
             interval: 20s

@@ -1,9 +1,9 @@
-import getLogger from "../../recommender/bin/logger.js";
+import getLogger from "../../systems_programming_lib/bin/logger.js";
 import { teams } from "./data/teams.js";
 import { EventGenerator } from "./functionality/event_generator.js";
 import { RandomEventGeneratorEngine } from "./functionality/event_generator_engine.js";
 import { Producer } from "./messaging/Producer.js";
-import { getRandomInt, sleep } from "../../recommender/bin/utils.js";
+import { getRandomInt, sleep } from "../../systems_programming_lib/bin/utils.js";
 import dotenv from 'dotenv';
 import amqplib from 'amqplib';
 dotenv.config();

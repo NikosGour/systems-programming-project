@@ -23725,3 +23725,74 @@
  ],
  "sport": "Basketball"
 }
+ 🟦 | [MAIN] | 10-06-24 14:22:40 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:22:40 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:22:40 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:22:40 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:22:40 | INFO | Creating queue
+ 🟦 | [MAIN] | 10-06-24 14:22:40 | INFO | Queue created
+ 🟦 | [MAIN] | 10-06-24 14:22:40 | INFO | Publishing message
+ 🟦 | [MAIN] | 10-06-24 14:22:40 | INFO | Message: {
+ "begin_timestamp": "2024-06-10T11:22:40.872Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-12T11:22:40.872Z",
+ "event_id": {
+  "_id": "32dc8a20-abe5-454f-9d63-d86027f95b0b"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team B"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Basketball"
+}
+ 🟦 | [MAIN] | 10-06-24 14:36:21 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:36:21 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 14:36:21 | INFO | Creating channel
+ 🟦 | [MAIN] | 10-06-24 14:36:21 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 14:36:21 | INFO | Creating queue
+ 🟦 | [MAIN] | 10-06-24 14:36:21 | INFO | Queue created
+ 🟦 | [MAIN] | 10-06-24 14:36:21 | INFO | Publishing message
+ 🟦 | [MAIN] | 10-06-24 14:36:21 | INFO | Message: {
+ "begin_timestamp": "2024-06-10T11:36:21.614Z",
+ "country": "GRE",
+ "end_timestamp": "2024-06-12T11:36:21.614Z",
+ "event_id": {
+  "_id": "01985ce6-83d7-4bf2-b931-a15dd857bc17"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team B"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 10-06-24 14:36:26 | INFO | Creating queue
+ 🟦 | [MAIN] | 10-06-24 14:36:26 | INFO | Queue created
+ 🟦 | [MAIN] | 10-06-24 14:36:26 | INFO | Publishing message
+ 🟦 | [MAIN] | 10-06-24 14:36:26 | INFO | Message: {
+ "begin_timestamp": "2024-06-10T11:36:26.693Z",
+ "country": "US",
+ "end_timestamp": "2024-06-12T11:36:26.693Z",
+ "event_id": {
+  "_id": "f731637e-ed3a-429b-ae49-19e29e8382a0"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team A"
+  }
+ ],
+ "sport": "Basketball"
+}
