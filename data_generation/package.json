@@ -5,9 +5,13 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon bin/index.js",
+    "dev": "nodemon --loader esm-module-alias/loader --no-warnings bin/index.js",
     "clean": "rm -rf bin;tsc",
+    "start": "node --loader esm-module-alias/loader --no-warnings bin/index.js",
     "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest --watchAll"
+  },
+  "aliases": {
+    "@sys_lib": "../systems_programming_lib/bin"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +30,7 @@
   "dependencies": {
     "amqplib": "^0.10.4",
     "dotenv": "^16.4.5",
+    "esm-module-alias": "^2.1.0",
     "mysql2": "^3.10.0",
     "winston": "^3.13.0"
   }

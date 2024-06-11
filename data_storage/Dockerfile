@@ -55,5 +55,5 @@ COPY --from=builder /app/data_storage/.env .
 
 COPY --from=builder /app/data_storage/node_modules node_modules
 
-ENTRYPOINT [ "node", "bin/index.js" ]
+ENTRYPOINT ["npm" , "start"]
 # ENTRYPOINT /bin/bash -c "echo 'Hello World'; sleep infinity"

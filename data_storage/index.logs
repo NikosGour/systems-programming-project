@@ -8886,3 +8886,155 @@
  🟦 | [MAIN] | 10-06-24 14:33:46 | INFO | Connected to RabbitMQ
  🟦 | [MAIN] | 10-06-24 14:33:46 | INFO | Creating channel
  🟦 | [MAIN] | 10-06-24 14:33:46 | INFO | Channel created
+ 🟦 | [MAIN] | 10-06-24 19:56:49 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 20:00:02 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 10-06-24 20:01:39 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:01:39 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:01:41 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:01:41 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:01:42 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:01:42 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:01:51 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:01:51 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:01:52 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:01:52 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:01:53 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:01:53 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:01:53 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:01:53 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:01:54 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:01:54 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:01:56 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:01:56 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:01:58 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:01:58 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:01:59 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:01:59 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:02:02 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:02:02 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 10-06-24 20:02:03 | INFO | Connecting to RabbitMQ
+ 🟥 | [MAIN] | 10-06-24 20:02:03 | ERROR | Error consuming message
+ 🟦 | [MAIN] | 11-06-24 10:03:26 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:03:26 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:03:26 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:03:26 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:04:16 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:04:16 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:04:16 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:04:16 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:05:35 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:05:35 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:05:35 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:05:35 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:07:54 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:07:54 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:07:54 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:07:54 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:09:39 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:09:39 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:09:39 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:09:39 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:12:07 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:12:07 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:12:07 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:12:07 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:12:46 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:12:47 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:12:47 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:12:47 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:12:54 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:12:54 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:12:54 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:12:54 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:13:15 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:13:15 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:13:15 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:13:15 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:13:25 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:13:25 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:13:25 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:13:25 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:14:04 | INFO | Received message:
+ 🟦 | [MAIN] | 11-06-24 10:14:04 | INFO | {
+ "begin_timestamp": "2024-06-11T07:14:04.760Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-13T07:14:04.760Z",
+ "event_id": {
+  "_id": "455a637e-85fc-433b-aec3-74a1747526b7"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 11-06-24 10:15:12 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:15:12 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:15:12 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:15:12 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:15:12 | INFO | Received message:
+ 🟦 | [MAIN] | 11-06-24 10:15:12 | INFO | {
+ "begin_timestamp": "2024-06-11T07:14:04.760Z",
+ "country": "FRA",
+ "end_timestamp": "2024-06-13T07:14:04.760Z",
+ "event_id": {
+  "_id": "455a637e-85fc-433b-aec3-74a1747526b7"
+ },
+ "league": "UEFA",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team E"
+  }
+ ],
+ "sport": "Handball"
+}
+ 🟦 | [MAIN] | 11-06-24 10:15:12 | INFO | Received message:
+ 🟦 | [MAIN] | 11-06-24 10:15:12 | INFO | {
+ "begin_timestamp": "2024-06-11T07:14:05.835Z",
+ "country": "UK",
+ "end_timestamp": "2024-06-13T07:14:05.835Z",
+ "event_id": {
+  "_id": "000ade0c-c197-4365-8adb-0f14cc5659d8"
+ },
+ "league": "Extraliga",
+ "participants": [
+  {
+   "name": "Team F"
+  },
+  {
+   "name": "Team C"
+  }
+ ],
+ "sport": "Football"
+}
+ 🟦 | [MAIN] | 11-06-24 10:49:38 | INFO | Connecting to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:49:38 | INFO | Connected to RabbitMQ
+ 🟦 | [MAIN] | 11-06-24 10:49:38 | INFO | Creating channel
+ 🟦 | [MAIN] | 11-06-24 10:49:38 | INFO | Channel created
+ 🟦 | [MAIN] | 11-06-24 10:49:38 | INFO | Received message:
+ 🟦 | [MAIN] | 11-06-24 10:49:38 | INFO | {
+ "begin_timestamp": "2024-06-11T07:20:35.208Z",
+ "country": "US",
+ "end_timestamp": "2024-06-13T07:20:35.208Z",
+ "event_id": {
+  "_id": "8bd4181f-1ce6-4f29-a0eb-ab3bd8092fa5"
+ },
+ "league": "Euro",
+ "participants": [
+  {
+   "name": "Team C"
+  },
+  {
+   "name": "Team D"
+  }
+ ],
+ "sport": "Handball"
+}

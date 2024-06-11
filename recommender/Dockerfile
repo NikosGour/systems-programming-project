@@ -55,5 +55,5 @@ COPY --from=builder /app/recommender/.env .
 
 COPY --from=builder /app/recommender/node_modules node_modules
 
-ENTRYPOINT [ "node", "bin/index.js" ]
+ENTRYPOINT [ "npm", "start" ]
 # ENTRYPOINT /bin/bash -c "echo 'Hello World'; sleep infinity"

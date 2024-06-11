@@ -24,6 +24,11 @@
     "noEmitOnError": true,
     "moduleResolution": "Bundler",
     "sourceMap": true,
+    "paths": {
+      "@sys_lib/*": [
+        "../systems_programming_lib/bin/*"
+      ]
+    }
   },
   "include": [
     "src/**/*.ts"

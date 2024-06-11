@@ -1,6 +1,6 @@
-import getLogger from '../logger.js';
+import getLogger from '@sys_lib/logger.js';
 import mysql2 from "mysql2/promise";
-import { Event } from "../../../systems_programming_lib/bin/models/event.js";
+import { Event } from "@sys_lib/models/event.js";
 const logger = getLogger();
 export class MySQLDatabase{
 

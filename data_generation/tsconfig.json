@@ -27,6 +27,11 @@
     "sourceMap": true,
     "declaration": true,
     "declarationMap": true,
+    "paths": {
+      "@sys_lib/*": [
+        "../systems_programming_lib/bin/*"
+      ]
+    }
   },
   "include": [
     "src/**/*.ts"

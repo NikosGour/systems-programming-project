@@ -1,11 +1,11 @@
-import { Event } from "../../../systems_programming_lib/bin/models/event.js";
+import { Event } from "@sys_lib/models/event.js";
 import { EventGeneratorEngine } from "./event_generator.js";
 import { teams } from "../data/teams.js";
-import getLogger from "../../../systems_programming_lib/bin/logger.js";
-import { countries, leagues, sports } from "../../../systems_programming_lib/bin/data/lists.js";
-import { Team } from "../../../systems_programming_lib/bin/models/team.js";
-import { UUID } from "../../../systems_programming_lib/bin/functionality/uuid.js";
-import { Country, League, Sport } from "../../../systems_programming_lib/bin/utils.js";
+import getLogger from "@sys_lib/logger.js";
+import { countries, leagues, sports } from "@sys_lib/data/lists.js";
+import { Team } from "@sys_lib/models/team.js";
+import { UUID } from "@sys_lib/functionality/uuid.js";
+import { Country, League, Sport } from "@sys_lib/utils.js";
 
 const logger = getLogger();
 

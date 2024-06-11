@@ -1,8 +1,7 @@
 import { MySQLDatabase } from "../database/mysqldatabase.js";
-import getLogger from "../logger.js";
+import getLogger from "@sys_lib/logger.js";
 import amqplib, { ConfirmChannel, Connection } from "amqplib";
-import { Event, isEvent, transformEvent } from "../../../systems_programming_lib/bin/models/event.js";
-import { UUID } from "../../../systems_programming_lib/bin/functionality/uuid.js";
+import { isEvent, transformEvent } from "@sys_lib/models/event.js";
 
 
 const logger = getLogger(`index.logs`);

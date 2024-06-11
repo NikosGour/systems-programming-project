@@ -1,9 +1,9 @@
 import mysql2, { RowDataPacket } from 'mysql2/promise';
 import { teams } from '../data/teams.js';
 import { users } from '../data/users.js';
-import { Bet, Coupon } from '../../../systems_programming_lib/bin/models/coupon.js';
-import { UUID } from '../../../systems_programming_lib/bin/functionality/uuid.js';
-import { getRandomInt } from '../../../systems_programming_lib/bin/utils.js';
+import { Bet, Coupon } from '@sys_lib/models/coupon.js';
+import { UUID } from '@sys_lib/functionality/uuid.js';
+import { getRandomInt } from '@sys_lib/utils.js';
 import dotenv from 'dotenv';
 dotenv.config();
 const MYSQL_URI = process.env[ `MYSQL_URI` ] || `localhost`;

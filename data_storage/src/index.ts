@@ -1,9 +1,9 @@
-import getLogger from "./logger.js";
+import getLogger from "@sys_lib/logger.js";
 import { Consumer } from "./messaging/Consumer.js";
-import dotenv from "dotenv";
 import amqlib from 'amqplib/callback_api.js';
 import { MySQLDatabase } from "./database/mysqldatabase.js";
 import mysql2 from 'mysql2';
+import dotenv from 'dotenv';
 dotenv.config();
 const logger = getLogger();
 
