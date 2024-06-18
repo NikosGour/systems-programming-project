@@ -1,3 +1,4 @@
+// Some dummy data for teams
 import { Team } from "@sys_lib/models/team.js";
 export const teams: Team[] = [
 	{ name: `Team A` },

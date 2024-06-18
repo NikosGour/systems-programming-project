@@ -1,3 +1,4 @@
+// Some dummy data for users
 import { User } from "@sys_lib/models/user.js";
 import { UUID } from "@sys_lib/functionality/uuid.js";
 

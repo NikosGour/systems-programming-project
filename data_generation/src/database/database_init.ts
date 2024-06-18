@@ -1,3 +1,7 @@
+// This file is used to generate the tables for the database
+// plus insert the data from the data files into the database
+// In production, this would be done from the sys admins on the database
+
 import mysql2, { RowDataPacket } from 'mysql2/promise';
 import { teams } from '../data/teams.js';
 import { users } from '../data/users.js';
