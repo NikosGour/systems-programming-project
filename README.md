@@ -47,7 +47,7 @@ The messaging consumer is responsible for consuming the events from the queue an
 
 ### Messaging Architecture
 
-The messaging architecture is based on the worker queue pattern. The messaging producer sends the events to a single queue and the messaging consumer consumes the events from the queue. The messaging producer and the messaging consumer are decoupled, this means that the messaging producer and the messaging consumer can be scaled independently. The messaging producer and the messaging consumer are also fault-tolerant, this means that if the messaging producer or the messaging consumer fails, the other one can still work. 
+The messaging architecture is based on the [worker queue](https://www.rabbitmq.com/tutorials/tutorial-two-javascript) pattern. The messaging producer sends the events to a single queue and the messaging consumer consumes the events from the queue. The messaging producer and the messaging consumer are decoupled, this means that the messaging producer and the messaging consumer can be scaled independently. The messaging producer and the messaging consumer are also fault-tolerant, this means that if the messaging producer or the messaging consumer fails, the other one can still work. 
 
 The queue:
 - is **durable**: this means that if the messaging broker fails, the queue will still be there when the messaging broker comes back up.
@@ -64,9 +64,22 @@ https://github.com/NikosGour/systems-programming-project/assets/63046380/3b5cb4d
 
 ### Adding more consumer to scale out
 
+With this architecture, we can easily scale out the messaging consumer. We can add more messaging consumers to the queue and the messages will be distributed in a round-robin way to the messaging consumers. This will increase the throughput of the system.
+
 https://github.com/NikosGour/systems-programming-project/assets/63046380/17f7e138-e57e-44f7-98c6-963a4244141d
+
+To add more producers, with this architecture, is easy. We can just add a new queue that the new producer can bind to and start sending messages to the queue. We also need to add a new messaging consumer to consume the messages from the new queue.
 
 #### Side note: quick tutorial to use [rabbitmq visualizer](https://jmcle.github.io/rabbitmq-visualizer/#)
 
 https://github.com/NikosGour/systems-programming-project/assets/63046380/b540a669-14af-4e08-a612-fe5428b0505a
 
+
+## `Recommender` Project Architecture
+The recommender project has 3 main components:
+
+- The recommendation API
+- The recommender interface/implementations
+- The data storage query service
+
+The recommendation API is the main component of the project, it is responsible for receiving the requests and sending the responses. The recommendation API uses the recommender interface to generate the recommendations. The recommender interface is implemented by the recommender implementations. The recommender implementations are responsible for generating the recommendations from the data storage query service. The data storage query service is responsible for querying the database for the events and sending them to the recommender implementations to generate the recommendations.
