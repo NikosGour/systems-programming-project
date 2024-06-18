@@ -14,6 +14,10 @@ You will finally need docker compose install
 
 `./prerun.sh && docker compose up --build`
 
+## Shared Library Contents
+
+The shared library contains mostly interfaces and types and some utility functions. 
+
 ## Project Architecture
 
 The project is divided into 2 big parts:
