@@ -58,4 +58,15 @@ The queue:
 
 ![pic](docs/messaging.png)
 
-<video src='docs/demo.mp4' >
+### Demo of message flow
+
+https://github.com/NikosGour/systems-programming-project/assets/63046380/3b5cb4d3-5bb0-4df9-bebb-eb6f313ee37e
+
+### Adding more consumer to scale out
+
+https://github.com/NikosGour/systems-programming-project/assets/63046380/17f7e138-e57e-44f7-98c6-963a4244141d
+
+#### Side note: quick tutorial to use [rabbitmq visualizer](https://jmcle.github.io/rabbitmq-visualizer/#)
+
+https://github.com/NikosGour/systems-programming-project/assets/63046380/b540a669-14af-4e08-a612-fe5428b0505a
+
