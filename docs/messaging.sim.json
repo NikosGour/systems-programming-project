@@ -1,0 +1,117 @@
+{
+	"exchanges": [
+		{
+			"name": " ",
+			"resource_type": "exchange",
+			"id": 36,
+			"type": "1",
+			"x": 388,
+			"y": 265
+		}
+	],
+	"queues": [
+		{
+			"name": "events",
+			"x": 560,
+			"y": 261,
+			"resource_type": "queue",
+			"id": 2,
+			"messages": [],
+			"totalConsumers": 3,
+			"lastConsumer": 0
+		}
+	],
+	"bindings": [
+		{
+			"source": 2,
+			"vhost": "default",
+			"source_type": "queue",
+			"destination": 10,
+			"destination_type": "consumer",
+			"id": 13,
+			"routing_key": null,
+			"arguments": []
+		},
+		{
+			"source": 2,
+			"vhost": "demo",
+			"destination": 32,
+			"destination_type": "consumer",
+			"routing_key": "key",
+			"arguments": [],
+			"id": 33,
+			"source_type": "queue"
+		},
+		{
+			"source": 2,
+			"vhost": "demo",
+			"destination": 11,
+			"destination_type": "consumer",
+			"routing_key": "key",
+			"arguments": [],
+			"id": 34,
+			"source_type": "queue"
+		},
+		{
+			"source": 36,
+			"vhost": "demo",
+			"destination": 2,
+			"destination_type": "queue",
+			"routing_key": "key",
+			"arguments": [],
+			"id": 37,
+			"source_type": "exchange"
+		},
+		{
+			"source": 8,
+			"vhost": "demo",
+			"destination": 36,
+			"destination_type": "exchange",
+			"routing_key": "key",
+			"arguments": [],
+			"id": 38,
+			"source_type": "producer"
+		}
+	],
+	"producers": [
+		{
+			"name": "Data Generator",
+			"x": 213,
+			"y": 267,
+			"interval": 5,
+			"publish": {
+				"to": 1,
+				"payload": "one",
+				"routing_key": "di.usr.one"
+			},
+			"resource_type": "producer",
+			"id": 8
+		}
+	],
+	"consumers": [
+		{
+			"name": "Data Storage 1",
+			"x": 846,
+			"y": 121,
+			"consume": 2,
+			"resource_type": "consumer",
+			"id": 10
+		},
+		{
+			"name": "Data Storage 3",
+			"x": 849,
+			"y": 345,
+			"consume": 3,
+			"resource_type": "consumer",
+			"id": 11
+		},
+		{
+			"name": "Data Storage 2",
+			"resource_type": "consumer",
+			"id": 32,
+			"type": 0,
+			"x": 850,
+			"y": 225
+		}
+	]
+}
